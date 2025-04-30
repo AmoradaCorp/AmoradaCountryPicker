@@ -139,6 +139,16 @@ Puedes ajustarlo según tu diseño (`padding`, `weight`, etc). Todos los compone
 
 ---
 
+
+## 🙋‍♂️ Contribuciones
+
+Este repositorio es público y puedes hacer fork para tu propio uso.  
+Sin embargo, **las contribuciones directas no están habilitadas en este momento** para mantener control sobre la evolución de la librería.
+
+Si deseas sugerir mejoras, puedes abrir un `Issue`.
+
+---
+
 ## 📜 Licencia
 
 Este proyecto está licenciado bajo la licencia MIT - ver [LICENSE](LICENSE) para más detalles.
