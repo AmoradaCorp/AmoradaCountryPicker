@@ -9,6 +9,8 @@ import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LocalTextStyle
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -17,6 +19,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import com.amorada.amoradacountrypicker.model.Country
 
@@ -25,41 +29,55 @@ fun PhoneCodePickerDropdown(
     selectedPhoneCode: String,
     onPhoneCodeSelected: (Country) -> Unit,
     countries: List<Country>,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    isError: Boolean = false,
+    enabled: Boolean = true,
+    labelText: String = "Código telefónico",
+    placeholderText: String = "",
+    textStyle: TextStyle = LocalTextStyle.current,
+    labelStyle: TextStyle = MaterialTheme.typography.labelLarge
 ) {
     var expanded by remember { mutableStateOf(false) }
 
     val selectedCountry = countries.find { it.phoneCode == selectedPhoneCode }
 
     Box(modifier = modifier) {
-        OutlinedTextField(
-            value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.phoneCode}" } ?: "",
+        OutlinedTextField(value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.phoneCode}" }
+            ?: "",
             onValueChange = {},
-            label = { Text("Código telefónico") },
+            label = { Text(text = labelText, style = labelStyle) },
+            placeholder = {
+                if (selectedCountry == null && placeholderText.isNotBlank()) {
+                    Text(placeholderText, style = textStyle.copy(color = Color.Gray))
+                }
+            },
             readOnly = true,
+            singleLine = true,
             modifier = Modifier.fillMaxWidth(),
             trailingIcon = {
                 IconButton(onClick = { expanded = true }) {
                     Icon(Icons.Default.ArrowDropDown, contentDescription = null)
                 }
-            }
+            },
+            isError = isError,
+            enabled = enabled,
+            textStyle = textStyle
         )
 
         DropdownMenu(
             expanded = expanded,
             onDismissRequest = { expanded = false },
-            modifier = Modifier.fillMaxWidth().padding(4.dp)
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(4.dp)
         ) {
             countries.distinctBy { it.phoneCode }.forEach { country ->
-                DropdownMenuItem(
-                    text = {
-                        Text("${country.emoji.orEmpty()} ${country.phoneCode}")
-                    },
-                    onClick = {
-                        onPhoneCodeSelected(country)
-                        expanded = false
-                    }
-                )
+                DropdownMenuItem(text = {
+                    Text("${country.emoji.orEmpty()} ${country.phoneCode}")
+                }, onClick = {
+                    onPhoneCodeSelected(country)
+                    expanded = false
+                })
             }
         }
     }
