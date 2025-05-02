@@ -73,26 +73,3 @@ fun CountryPickerScreen(
         }
     }
 }
-
-@Preview(showBackground = true, apiLevel = 33)
-@Composable
-fun CountryPickerScreenPreview() {
-    val sampleCountries = listOf(
-        Country("Peru", "PE", "+51", "PEN", "Sol", "🇵🇪"),
-        Country("Brazil", "BR", "+55", "BRL", "Real", "🇧🇷"),
-        Country("Japan", "JP", "+81", "JPY", "Yen", "🇯🇵")
-    )
-
-    val fakeViewModel = remember {
-        object : CountryPickerViewModel(Application()) {
-            init {
-                _countries.value = sampleCountries
-            }
-        }
-    }
-
-    CountryPickerScreen(
-        viewModel = fakeViewModel,
-        onCountrySelected = {}
-    )
-}

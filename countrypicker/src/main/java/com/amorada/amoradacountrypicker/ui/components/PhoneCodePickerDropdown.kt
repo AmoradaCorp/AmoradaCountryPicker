@@ -23,12 +23,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import com.amorada.amoradacountrypicker.model.Country
+import com.amorada.amoradacountrypicker.provider.CountryProvider
 
 @Composable
 fun PhoneCodePickerDropdown(
     selectedPhoneCode: String,
     onPhoneCodeSelected: (Country) -> Unit,
-    countries: List<Country>,
+    countryProvider: CountryProvider,
     modifier: Modifier = Modifier,
     isError: Boolean = false,
     enabled: Boolean = true,
@@ -39,11 +40,13 @@ fun PhoneCodePickerDropdown(
 ) {
     var expanded by remember { mutableStateOf(false) }
 
+    val countries = remember { countryProvider.getCountries() }
     val selectedCountry = countries.find { it.phoneCode == selectedPhoneCode }
 
     Box(modifier = modifier) {
-        OutlinedTextField(value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.phoneCode}" }
-            ?: "",
+        OutlinedTextField(
+            value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.phoneCode}" }
+                ?: "",
             onValueChange = {},
             label = { Text(text = labelText, style = labelStyle) },
             placeholder = {

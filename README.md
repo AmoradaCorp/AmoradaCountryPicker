@@ -2,7 +2,7 @@
 
 **Country Picker Android Library** ✨🚀
 
-> Librería 100% Jetpack Compose, moderna, ligera y fácil de integrar para seleccionar país, código telefónico y moneda.
+> Librería 100% Jetpack Compose, modular, ligera y reutilizable para seleccionar país, código telefónico y moneda.
 
 ---
 
@@ -11,10 +11,9 @@
 - Lista de países (+195) basada en estándar ISO 3166-1.
 - Soporte para código de teléfono y moneda nacional.
 - Selectores listos para país, moneda y código telefónico.
-- Búsqueda en tiempo real y UI moderna basada en Material 3.
-- Compatible con Light/Dark mode.
-- Uso flexible: con componente visual o accediendo a los datos directamente.
-- Código alineado a Clean Architecture, SOLID, MVVM.
+- Compatible con Light/Dark mode y Compose 2025.
+- Basada en Clean Architecture, SOLID, MVVM.
+- Interfaz `CountryProvider` para desacoplar la fuente de datos.
 
 ---
 
@@ -32,14 +31,16 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+
 ```
 
 ### build.gradle.kts (modulo app)
 
 ```kotlin
-// libs.versions.toml
+# libs.versions.toml
 [libraries]
-amorada-countrypicker = { group = "com.github.AmoradaCorp", name = "AmoradaCountryPicker", version = "v1.1.0" }
+amorada-countrypicker = { group = "com.github.AmoradaCorp", name = "AmoradaCountryPicker", version = "v1.3.0" }
+
 ```
 
 ```kotlin
@@ -50,6 +51,9 @@ implementation(libs.amorada.countrypicker)
 ---
 
 ## 💻 Uso rápido con componentes incluidos
+```kotlin
+val countryProvider = CountryRepository(context)
+```
 
 ### Selector de país (con bandera, código y nombre)
 
@@ -62,9 +66,10 @@ CountryPickerDropdown(
             countryName = it.countryName
         )
     },
-    countries = CountryRepository.getCountries(),
+    countryProvider = countryProvider,
     modifier = Modifier.fillMaxWidth()
 )
+
 ```
 
 ### Selector de moneda (bandera, código y nombre de moneda)
@@ -75,12 +80,13 @@ CurrencyPickerDropdown(
     onCurrencySelected = {
         state = state.copy(
             currencyCode = it.currencyCode,
-            currencyName = it.currencyName ?: ""
+            currencyName = it.currencyName.orEmpty()
         )
     },
-    countries = CountryRepository.getCountries(),
+    countryProvider = countryProvider,
     modifier = Modifier.fillMaxWidth()
 )
+
 ```
 
 ### Selector de código telefónico (bandera + código)
@@ -93,16 +99,30 @@ PhoneCodePickerDropdown(
             phoneCode = it.phoneCode
         )
     },
-    countries = CountryRepository.getCountries(),
+    countryProvider = countryProvider,
     modifier = Modifier.fillMaxWidth()
 )
+
+
 ```
 
-📝 **Requiere llamar una vez:**
+📝 **¿Qué es CountryProvider?**
 ```kotlin
-CountryRepository.loadCountries(context)
+interface CountryProvider {
+    fun getCountries(): List<Country>
+}
 ```
-Idealmente en `ViewModel` o `Application`.
+La librería no accede a Context ni carga datos por sí sola. La responsabilidad es del consumidor.
+
+Ejemplo:
+```kotlin
+class CountryRepository(private val context: Context) : CountryProvider {
+    override fun getCountries(): List<Country> {
+        // Cargar JSON desde assets
+    }
+}
+
+```
 
 ---
 
@@ -111,11 +131,20 @@ Idealmente en `ViewModel` o `Application`.
 Puedes acceder a la data para construir tu propio selector:
 
 ```kotlin
-val countries = CountryRepository.getCountries()
+val countries = countryProvider.getCountries()
 
-val formattedList = countries.map {
+val countryList = countries.map {
     "${it.emoji.orEmpty()} ${it.countryCode} - ${it.countryName}"
 }
+
+val phoneList = countries.map {
+    "${it.emoji.orEmpty()} ${it.phoneCode}"
+}
+
+val currencyList = countries.map {
+    "${it.emoji.orEmpty()} ${it.currencyCode} - ${it.currencyName}"
+}
+
 ```
 
 Acceso a moneda o teléfono:
