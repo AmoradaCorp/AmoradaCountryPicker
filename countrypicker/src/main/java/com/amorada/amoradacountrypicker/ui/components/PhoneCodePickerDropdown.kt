@@ -25,6 +25,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
@@ -84,7 +85,9 @@ fun PhoneCodePickerDropdown(
             },
             readOnly = true,
             singleLine = true,
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier
+                .focusRequester(focusRequester)
+                .fillMaxWidth(),
             trailingIcon = {
                 IconButton(onClick = { expanded = true }) {
                     Icon(Icons.Default.ArrowDropDown, contentDescription = null)
