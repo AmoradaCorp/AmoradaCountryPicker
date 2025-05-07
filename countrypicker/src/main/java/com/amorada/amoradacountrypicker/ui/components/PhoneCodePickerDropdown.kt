@@ -1,5 +1,6 @@
 package com.amorada.amoradacountrypicker.ui.components
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -39,14 +40,26 @@ fun PhoneCodePickerDropdown(
     labelStyle: TextStyle = MaterialTheme.typography.labelLarge
 ) {
     var expanded by remember { mutableStateOf(false) }
+    var searchQuery by remember { mutableStateOf("") }
 
-    val countries = remember { countryProvider.getCountries() }
-    val selectedCountry = countries.find { it.phoneCode == selectedPhoneCode }
+    val allCountries = remember { countryProvider.getCountries().distinctBy { it.phoneCode } }
+    val filteredCountries = remember(searchQuery) {
+        if (searchQuery.isBlank()) allCountries else {
+            allCountries.filter {
+                it.phoneCode.contains(searchQuery, true) || it.countryName.contains(
+                    searchQuery,
+                    true
+                )
+            }
+        }
+    }
+
+    val selectedCountry = allCountries.find { it.phoneCode == selectedPhoneCode }
 
     Box(modifier = modifier) {
         OutlinedTextField(
             value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.phoneCode}" }
-                ?: "",
+            ?: "",
             onValueChange = {},
             label = { Text(text = labelText, style = labelStyle) },
             placeholder = {
@@ -56,11 +69,11 @@ fun PhoneCodePickerDropdown(
             },
             readOnly = true,
             singleLine = true,
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable { expanded = true },
             trailingIcon = {
-                IconButton(onClick = { expanded = true }) {
-                    Icon(Icons.Default.ArrowDropDown, contentDescription = null)
-                }
+                Icon(Icons.Default.ArrowDropDown, contentDescription = null)
             },
             isError = isError,
             enabled = enabled,
@@ -68,19 +81,39 @@ fun PhoneCodePickerDropdown(
         )
 
         DropdownMenu(
-            expanded = expanded,
-            onDismissRequest = { expanded = false },
-            modifier = Modifier
+            expanded = expanded, onDismissRequest = {
+                expanded = false
+                searchQuery = ""
+            }, modifier = Modifier
                 .fillMaxWidth()
                 .padding(4.dp)
         ) {
-            countries.distinctBy { it.phoneCode }.forEach { country ->
+            OutlinedTextField(
+                value = searchQuery,
+                onValueChange = { searchQuery = it },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 8.dp, vertical = 4.dp),
+                placeholder = { Text("Buscar país o código...") },
+                singleLine = true
+            )
+
+            filteredCountries.forEach { country ->
                 DropdownMenuItem(text = {
                     Text("${country.emoji.orEmpty()} ${country.phoneCode}")
                 }, onClick = {
                     onPhoneCodeSelected(country)
                     expanded = false
+                    searchQuery = ""
                 })
+            }
+
+            if (filteredCountries.isEmpty()) {
+                DropdownMenuItem(
+                    text = { Text("Sin resultados", color = Color.Gray) },
+                    onClick = {},
+                    enabled = false
+                )
             }
         }
     }

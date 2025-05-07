@@ -2,18 +2,18 @@
 
 **Country Picker Android Library** ✨🚀
 
-> Librería 100% Jetpack Compose, modular, ligera y reutilizable para seleccionar país, código telefónico y moneda.
+> Librería 100% Jetpack Compose, modular, ligera y reutilizable para seleccionar país, código telefónico y moneda. Diseñada bajo Clean Architecture, SOLID y Compose 2025.
 
 ---
 
 ## 📋 Funcionalidades
 
-- Lista de países (+195) basada en estándar ISO 3166-1.
-- Soporte para código de teléfono y moneda nacional.
-- Selectores listos para país, moneda y código telefónico.
-- Compatible con Light/Dark mode y Compose 2025.
-- Basada en Clean Architecture, SOLID, MVVM.
-- Interfaz `CountryProvider` para desacoplar la fuente de datos.
+- Lista de países (+195) basada en ISO 3166-1.
+- Selección de país, moneda y código telefónico.
+- UX optimizada: clic en todo el campo y búsqueda en tiempo real.
+- Interfaz `CountryProvider` para desacoplar la fuente de datos (assets, red, mock...).
+- Soporte para tema claro/oscuro.
+- Código desacoplado, testeable y profesional.
 
 ---
 
@@ -39,7 +39,7 @@ dependencyResolutionManagement {
 ```kotlin
 # libs.versions.toml
 [libraries]
-amorada-countrypicker = { group = "com.github.AmoradaCorp", name = "AmoradaCountryPicker", version = "v1.3.0" }
+amorada-countrypicker = { group = "com.github.AmoradaCorp", name = "AmoradaCountryPicker", version = "v1.4.0" }
 
 ```
 
