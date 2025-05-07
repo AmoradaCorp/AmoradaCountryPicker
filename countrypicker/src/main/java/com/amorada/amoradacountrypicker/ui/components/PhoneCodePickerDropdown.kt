@@ -1,5 +1,8 @@
 package com.amorada.amoradacountrypicker.ui.components
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,16 +18,19 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import com.amorada.amoradacountrypicker.model.Country
 import com.amorada.amoradacountrypicker.provider.CountryProvider
+import kotlinx.coroutines.delay
 
 @Composable
 fun PhoneCodePickerDropdown(
@@ -39,7 +45,17 @@ fun PhoneCodePickerDropdown(
     textStyle: TextStyle = LocalTextStyle.current,
     labelStyle: TextStyle = MaterialTheme.typography.labelLarge
 ) {
+    val focusRequester = remember { FocusRequester() }
+
     var expanded by remember { mutableStateOf(false) }
+
+    LaunchedEffect(expanded) {
+        if (expanded) {
+            delay(150)
+            focusRequester.requestFocus()
+        }
+    }
+
     var searchQuery by remember { mutableStateOf("") }
 
     val allCountries = remember { countryProvider.getCountries().distinctBy { it.phoneCode } }
@@ -47,8 +63,7 @@ fun PhoneCodePickerDropdown(
         if (searchQuery.isBlank()) allCountries else {
             allCountries.filter {
                 it.phoneCode.contains(searchQuery, true) || it.countryName.contains(
-                    searchQuery,
-                    true
+                    searchQuery, true
                 )
             }
         }
@@ -56,10 +71,10 @@ fun PhoneCodePickerDropdown(
 
     val selectedCountry = allCountries.find { it.phoneCode == selectedPhoneCode }
 
-    Box(modifier = modifier) {
+    Box(modifier = modifier.clickable(enabled) { expanded = true }) {
         OutlinedTextField(
             value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.phoneCode}" }
-            ?: "",
+                ?: "",
             onValueChange = {},
             label = { Text(text = labelText, style = labelStyle) },
             placeholder = {
@@ -69,51 +84,57 @@ fun PhoneCodePickerDropdown(
             },
             readOnly = true,
             singleLine = true,
-            modifier = Modifier
-                .fillMaxWidth()
-                .clickable { expanded = true },
+            modifier = Modifier.fillMaxWidth(),
             trailingIcon = {
-                Icon(Icons.Default.ArrowDropDown, contentDescription = null)
+                IconButton(onClick = { expanded = true }) {
+                    Icon(Icons.Default.ArrowDropDown, contentDescription = null)
+                }
             },
             isError = isError,
             enabled = enabled,
             textStyle = textStyle
         )
 
-        DropdownMenu(
-            expanded = expanded, onDismissRequest = {
-                expanded = false
-                searchQuery = ""
-            }, modifier = Modifier
-                .fillMaxWidth()
-                .padding(4.dp)
+        AnimatedVisibility(
+            visible = expanded,
+            enter = fadeIn(),
+            exit = fadeOut()
         ) {
-            OutlinedTextField(
-                value = searchQuery,
-                onValueChange = { searchQuery = it },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp, vertical = 4.dp),
-                placeholder = { Text("Buscar país o código...") },
-                singleLine = true
-            )
-
-            filteredCountries.forEach { country ->
-                DropdownMenuItem(text = {
-                    Text("${country.emoji.orEmpty()} ${country.phoneCode}")
-                }, onClick = {
-                    onPhoneCodeSelected(country)
+            DropdownMenu(
+                expanded = true, onDismissRequest = {
                     expanded = false
                     searchQuery = ""
-                })
-            }
-
-            if (filteredCountries.isEmpty()) {
-                DropdownMenuItem(
-                    text = { Text("Sin resultados", color = Color.Gray) },
-                    onClick = {},
-                    enabled = false
+                }, modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(4.dp)
+            ) {
+                OutlinedTextField(
+                    value = searchQuery,
+                    onValueChange = { searchQuery = it },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 8.dp, vertical = 4.dp),
+                    placeholder = { Text("Buscar país o código...") },
+                    singleLine = true
                 )
+
+                filteredCountries.forEach { country ->
+                    DropdownMenuItem(text = {
+                        Text("${country.emoji.orEmpty()} ${country.phoneCode}")
+                    }, onClick = {
+                        onPhoneCodeSelected(country)
+                        expanded = false
+                        searchQuery = ""
+                    })
+                }
+
+                if (filteredCountries.isEmpty()) {
+                    DropdownMenuItem(
+                        text = { Text("Sin resultados", color = Color.Gray) },
+                        onClick = {},
+                        enabled = false
+                    )
+                }
             }
         }
     }
