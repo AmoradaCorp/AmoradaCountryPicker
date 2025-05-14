@@ -4,9 +4,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
@@ -54,7 +51,6 @@ fun PhoneCodePickerDropdown(
 ) {
     val focusRequester = remember { FocusRequester() }
     val keyboardController = LocalSoftwareKeyboardController.current
-    val listState = rememberLazyListState()
 
     var expanded by remember { mutableStateOf(false) }
     var searchQuery by remember { mutableStateOf("") }
@@ -75,11 +71,6 @@ fun PhoneCodePickerDropdown(
         if (expanded) {
             delay(150)
             focusRequester.requestFocus()
-
-            val selectedIndex = filteredCountries.indexOfFirst { it.phoneCode == selectedPhoneCode }
-            if (selectedIndex >= 0) {
-                listState.scrollToItem(selectedIndex)
-            }
         }
     }
 
@@ -137,26 +128,22 @@ fun PhoneCodePickerDropdown(
                     })
             )
 
-            LazyColumn(state = listState) {
-                items(filteredCountries) { country ->
-                    DropdownMenuItem(text = {
-                        Text("${country.emoji.orEmpty()} ${country.phoneCode}")
-                    }, onClick = {
-                        searchQuery = ""
-                        onPhoneCodeSelected(country)
-                        expanded = false
-                    })
-                }
+            filteredCountries.forEach { country ->
+                DropdownMenuItem(text = {
+                    Text("${country.emoji.orEmpty()} ${country.phoneCode}")
+                }, onClick = {
+                    onPhoneCodeSelected(country)
+                    expanded = false
+                    searchQuery = ""
+                })
+            }
 
-                if (filteredCountries.isEmpty()) {
-                    item {
-                        DropdownMenuItem(
-                            text = { Text(dropdownNoItemText, color = Color.Gray) },
-                            onClick = {},
-                            enabled = false
-                        )
-                    }
-                }
+            if (filteredCountries.isEmpty()) {
+                DropdownMenuItem(
+                    text = { Text(dropdownNoItemText, color = Color.Gray) },
+                    onClick = {},
+                    enabled = false
+                )
             }
         }
     }

@@ -4,9 +4,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
@@ -54,7 +51,6 @@ fun CountryPickerDropdown(
 ) {
     val focusRequester = remember { FocusRequester() }
     val keyboardController = LocalSoftwareKeyboardController.current
-    val listState = rememberLazyListState()
 
     var expanded by remember { mutableStateOf(false) }
     var searchQuery by remember { mutableStateOf("") }
@@ -72,19 +68,13 @@ fun CountryPickerDropdown(
         if (expanded) {
             delay(150)
             focusRequester.requestFocus()
-
-            val selectedIndex =
-                filteredCountries.indexOfFirst { it.countryCode == selectedCountryCode }
-            if (selectedIndex >= 0) {
-                listState.scrollToItem(selectedIndex)
-            }
         }
     }
 
     Box(modifier = modifier.clickable(enabled) { expanded = true }) {
         OutlinedTextField(
             value = selectedCountry?.let { "${it.emoji.orEmpty()} ${it.countryCode} - ${it.countryName}" }
-            ?: "",
+                ?: "",
             onValueChange = {},
             label = { Text(text = labelText, style = labelStyle) },
             placeholder = {
@@ -134,29 +124,24 @@ fun CountryPickerDropdown(
                         keyboardController?.hide()
                         expanded = false
                         searchQuery = ""
-                    })
-            )
+                    }))
 
-            LazyColumn(state = listState) {
-                items(filteredCountries) { country ->
-                    DropdownMenuItem(text = {
-                        Text("${country.emoji.orEmpty()} ${country.countryCode} - ${country.countryName}")
-                    }, onClick = {
-                        searchQuery = ""
-                        onCountrySelected(country)
-                        expanded = false
-                    })
-                }
+            filteredCountries.forEach { country ->
+                DropdownMenuItem(text = {
+                    Text("${country.emoji.orEmpty()} ${country.countryCode} - ${country.countryName}")
+                }, onClick = {
+                    onCountrySelected(country)
+                    expanded = false
+                    searchQuery = ""
+                })
+            }
 
-                if (filteredCountries.isEmpty()) {
-                    item {
-                        DropdownMenuItem(
-                            text = { Text(dropdownNoItemText, color = Color.Gray) },
-                            onClick = {},
-                            enabled = false
-                        )
-                    }
-                }
+            if (filteredCountries.isEmpty()) {
+                DropdownMenuItem(
+                    text = { Text(dropdownNoItemText, color = Color.Gray) },
+                    onClick = {},
+                    enabled = false
+                )
             }
         }
     }
