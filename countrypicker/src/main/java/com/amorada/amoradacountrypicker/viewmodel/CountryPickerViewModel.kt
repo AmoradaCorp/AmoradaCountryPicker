@@ -1,11 +1,8 @@
 package com.amorada.amoradacountrypicker.viewmodel
 
-import android.app.Application
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import com.amorada.amoradacountrypicker.model.Country
 import com.amorada.amoradacountrypicker.provider.CountryProvider
-import com.amorada.amoradacountrypicker.repository.CountryRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,0 +1,1757 @@
+[
+  {
+    "id": 1,
+    "countryName": "अफगानिस्तान",
+    "countryCode": "AF",
+    "phoneCode": "+93",
+    "currencyCode": "AFN",
+    "currencyName": "अफ़ग़ानी",
+    "emoji": "🇦🇫"
+  },
+  {
+    "id": 2,
+    "countryName": "अल्बानिया",
+    "countryCode": "AL",
+    "phoneCode": "+355",
+    "currencyCode": "ALL",
+    "currencyName": "लेक",
+    "emoji": "🇦🇱"
+  },
+  {
+    "id": 3,
+    "countryName": "अल्जीरिया",
+    "countryCode": "DZ",
+    "phoneCode": "+213",
+    "currencyCode": "DZD",
+    "currencyName": "अल्जीरियाई दिनार",
+    "emoji": "🇩🇿"
+  },
+  {
+    "id": 4,
+    "countryName": "अंडोरा",
+    "countryCode": "AD",
+    "phoneCode": "+376",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇦🇩"
+  },
+  {
+    "id": 5,
+    "countryName": "अंगोला",
+    "countryCode": "AO",
+    "phoneCode": "+244",
+    "currencyCode": "AOA",
+    "currencyName": "क्वांज़ा",
+    "emoji": "🇦🇴"
+  },
+  {
+    "id": 6,
+    "countryName": "एंटीगुआ और बारबुडा",
+    "countryCode": "AG",
+    "phoneCode": "+1-268",
+    "currencyCode": "XCD",
+    "currencyName": "ईस्ट कैरेबियन डॉलर",
+    "emoji": "🇦🇬"
+  },
+  {
+    "id": 7,
+    "countryName": "अर्जेंटीना",
+    "countryCode": "AR",
+    "phoneCode": "+54",
+    "currencyCode": "ARS",
+    "currencyName": "अर्जेंटीनी पेसो",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": 8,
+    "countryName": "आर्मीनिया",
+    "countryCode": "AM",
+    "phoneCode": "+374",
+    "currencyCode": "AMD",
+    "currencyName": "द्राम",
+    "emoji": "🇦🇲"
+  },
+  {
+    "id": 9,
+    "countryName": "ऑस्ट्रेलिया",
+    "countryCode": "AU",
+    "phoneCode": "+61",
+    "currencyCode": "AUD",
+    "currencyName": "ऑस्ट्रेलियाई डॉलर",
+    "emoji": "🇦🇺"
+  },
+  {
+    "id": 10,
+    "countryName": "ऑस्ट्रिया",
+    "countryCode": "AT",
+    "phoneCode": "+43",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇦🇹"
+  },
+  {
+    "id": 11,
+    "countryName": "अज़रबैजान",
+    "countryCode": "AZ",
+    "phoneCode": "+994",
+    "currencyCode": "AZN",
+    "currencyName": "मनेट",
+    "emoji": "🇦🇿"
+  },
+  {
+    "id": 12,
+    "countryName": "बहामास",
+    "countryCode": "BS",
+    "phoneCode": "+1-242",
+    "currencyCode": "BSD",
+    "currencyName": "बहामाई डॉलर",
+    "emoji": "🇧🇸"
+  },
+  {
+    "id": 13,
+    "countryName": "बहरीन",
+    "countryCode": "BH",
+    "phoneCode": "+973",
+    "currencyCode": "BHD",
+    "currencyName": "बहरीनी दिनार",
+    "emoji": "🇧🇭"
+  },
+  {
+    "id": 14,
+    "countryName": "बांग्लादेश",
+    "countryCode": "BD",
+    "phoneCode": "+880",
+    "currencyCode": "BDT",
+    "currencyName": "टक",
+    "emoji": "🇧🇩"
+  },
+  {
+    "id": 15,
+    "countryName": "बारबाडोस",
+    "countryCode": "BB",
+    "phoneCode": "+1-246",
+    "currencyCode": "BBD",
+    "currencyName": "बारबाडियन डॉलर",
+    "emoji": "🇧🇧"
+  },
+  {
+    "id": 16,
+    "countryName": "बेलारूस",
+    "countryCode": "BY",
+    "phoneCode": "+375",
+    "currencyCode": "BYN",
+    "currencyName": "बेलारूसी रूबल",
+    "emoji": "🇧🇾"
+  },
+  {
+    "id": 17,
+    "countryName": "बेल्जियम",
+    "countryCode": "BE",
+    "phoneCode": "+32",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇧🇪"
+  },
+  {
+    "id": 18,
+    "countryName": "बेलीज़",
+    "countryCode": "BZ",
+    "phoneCode": "+501",
+    "currencyCode": "BZD",
+    "currencyName": "बेलीज़ डॉलर",
+    "emoji": "🇧🇿"
+  },
+  {
+    "id": 19,
+    "countryName": "बेनिन",
+    "countryCode": "BJ",
+    "phoneCode": "+229",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇧🇯"
+  },
+  {
+    "id": 20,
+    "countryName": "भूटान",
+    "countryCode": "BT",
+    "phoneCode": "+975",
+    "currencyCode": "BTN",
+    "currencyName": "नगुलत्रम",
+    "emoji": "🇧🇹"
+  },
+  {
+    "id": 21,
+    "countryName": "बोलीविया",
+    "countryCode": "BO",
+    "phoneCode": "+591",
+    "currencyCode": "BOB",
+    "currencyName": "बोलिवियानो",
+    "emoji": "🇧🇴"
+  },
+  {
+    "id": 22,
+    "countryName": "बोस्निया और हर्जेगोविना",
+    "countryCode": "BA",
+    "phoneCode": "+387",
+    "currencyCode": "BAM",
+    "currencyName": "कन्वर्टिबल मार्क",
+    "emoji": "🇧🇦"
+  },
+  {
+    "id": 23,
+    "countryName": "बोत्सवाना",
+    "countryCode": "BW",
+    "phoneCode": "+267",
+    "currencyCode": "BWP",
+    "currencyName": "पुला",
+    "emoji": "🇧🇼"
+  },
+  {
+    "id": 24,
+    "countryName": "ब्राज़ील",
+    "countryCode": "BR",
+    "phoneCode": "+55",
+    "currencyCode": "BRL",
+    "currencyName": "रीयाल",
+    "emoji": "🇧🇷"
+  },
+  {
+    "id": 25,
+    "countryName": "ब्रुनेई",
+    "countryCode": "BN",
+    "phoneCode": "+673",
+    "currencyCode": "BND",
+    "currencyName": "ब्रुनेई डॉलर",
+    "emoji": "🇧🇳"
+  },
+  {
+    "id": 26,
+    "countryName": "बुल्गारिया",
+    "countryCode": "BG",
+    "phoneCode": "+359",
+    "currencyCode": "BGN",
+    "currencyName": "लेव",
+    "emoji": "🇧🇬"
+  },
+  {
+    "id": 27,
+    "countryName": "बुर्किना फासो",
+    "countryCode": "BF",
+    "phoneCode": "+226",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇧🇫"
+  },
+  {
+    "id": 28,
+    "countryName": "बुरुंडी",
+    "countryCode": "BI",
+    "phoneCode": "+257",
+    "currencyCode": "BIF",
+    "currencyName": "बुरुंडी फ्रैंक",
+    "emoji": "🇧🇮"
+  },
+  {
+    "id": 29,
+    "countryName": "कंबोडिया",
+    "countryCode": "KH",
+    "phoneCode": "+855",
+    "currencyCode": "KHR",
+    "currencyName": "रिएल",
+    "emoji": "🇰🇭"
+  },
+  {
+    "id": 30,
+    "countryName": "कैमरून",
+    "countryCode": "CM",
+    "phoneCode": "+237",
+    "currencyCode": "XAF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇨🇲"
+  },
+  {
+    "id": 31,
+    "countryName": "कनाडा",
+    "countryCode": "CA",
+    "phoneCode": "+1",
+    "currencyCode": "CAD",
+    "currencyName": "कनाडाई डॉलर",
+    "emoji": "🇨🇦"
+  },
+  {
+    "id": 32,
+    "countryName": "केप वर्डे",
+    "countryCode": "CV",
+    "phoneCode": "+238",
+    "currencyCode": "CVE",
+    "currencyName": "केप वर्डे एस्कुडो",
+    "emoji": "🇨🇻"
+  },
+  {
+    "id": 33,
+    "countryName": "मध्य अफ्रीकी गणराज्य",
+    "countryCode": "CF",
+    "phoneCode": "+236",
+    "currencyCode": "XAF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇨🇫"
+  },
+  {
+    "id": 34,
+    "countryName": "चाड",
+    "countryCode": "TD",
+    "phoneCode": "+235",
+    "currencyCode": "XAF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇹🇩"
+  },
+  {
+    "id": 35,
+    "countryName": "चिली",
+    "countryCode": "CL",
+    "phoneCode": "+56",
+    "currencyCode": "CLP",
+    "currencyName": "चिली पेसो",
+    "emoji": "🇨🇱"
+  },
+  {
+    "id": 36,
+    "countryName": "चीन",
+    "countryCode": "CN",
+    "phoneCode": "+86",
+    "currencyCode": "CNY",
+    "currencyName": "युआन",
+    "emoji": "🇨🇳"
+  },
+  {
+    "id": 37,
+    "countryName": "कोलंबिया",
+    "countryCode": "CO",
+    "phoneCode": "+57",
+    "currencyCode": "COP",
+    "currencyName": "कोलंबियाई पेसो",
+    "emoji": "🇨🇴"
+  },
+  {
+    "id": 38,
+    "countryName": "कोमोरोस",
+    "countryCode": "KM",
+    "phoneCode": "+269",
+    "currencyCode": "KMF",
+    "currencyName": "कोमोरियन फ्रैंक",
+    "emoji": "🇰🇲"
+  },
+  {
+    "id": 39,
+    "countryName": "कांगो (ब्राज़ाविल)",
+    "countryCode": "CG",
+    "phoneCode": "+242",
+    "currencyCode": "XAF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇨🇬"
+  },
+  {
+    "id": 40,
+    "countryName": "कांगो (किन्शासा)",
+    "countryCode": "CD",
+    "phoneCode": "+243",
+    "currencyCode": "CDF",
+    "currencyName": "कांगोली फ्रैंक",
+    "emoji": "🇨🇩"
+  },
+  {
+    "id": 41,
+    "countryName": "कोस्टा रिका",
+    "countryCode": "CR",
+    "phoneCode": "+506",
+    "currencyCode": "CRC",
+    "currencyName": "कोस्टा रिकन कोलोन",
+    "emoji": "🇨🇷"
+  },
+  {
+    "id": 42,
+    "countryName": "क्रोएशिया",
+    "countryCode": "HR",
+    "phoneCode": "+385",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇭🇷"
+  },
+  {
+    "id": 43,
+    "countryName": "क्यूबा",
+    "countryCode": "CU",
+    "phoneCode": "+53",
+    "currencyCode": "CUP",
+    "currencyName": "क्यूबाई पेसो",
+    "emoji": "🇨🇺"
+  },
+  {
+    "id": 44,
+    "countryName": "साइप्रस",
+    "countryCode": "CY",
+    "phoneCode": "+357",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇨🇾"
+  },
+  {
+    "id": 45,
+    "countryName": "चेक गणराज्य",
+    "countryCode": "CZ",
+    "phoneCode": "+420",
+    "currencyCode": "CZK",
+    "currencyName": "चेक कोरुना",
+    "emoji": "🇨🇿"
+  },
+  {
+    "id": 46,
+    "countryName": "डेनमार्क",
+    "countryCode": "DK",
+    "phoneCode": "+45",
+    "currencyCode": "DKK",
+    "currencyName": "डेनिश क्रोन",
+    "emoji": "🇩🇰"
+  },
+  {
+    "id": 47,
+    "countryName": "जिबूती",
+    "countryCode": "DJ",
+    "phoneCode": "+253",
+    "currencyCode": "DJF",
+    "currencyName": "जिबूती फ्रैंक",
+    "emoji": "🇩🇯"
+  },
+  {
+    "id": 48,
+    "countryName": "डोमिनिका",
+    "countryCode": "DM",
+    "phoneCode": "+1-767",
+    "currencyCode": "XCD",
+    "currencyName": "ईस्ट कैरेबियन डॉलर",
+    "emoji": "🇩🇲"
+  },
+  {
+    "id": 49,
+    "countryName": "डोमिनिकन गणराज्य",
+    "countryCode": "DO",
+    "phoneCode": "+1-809",
+    "currencyCode": "DOP",
+    "currencyName": "डोमिनिकन पेसो",
+    "emoji": "🇩🇴"
+  },
+  {
+    "id": 50,
+    "countryName": "इक्वाडोर",
+    "countryCode": "EC",
+    "phoneCode": "+593",
+    "currencyCode": "USD",
+    "currencyName": "अमेरिकी डॉलर",
+    "emoji": "🇪🇨"
+  },
+  {
+    "id": 51,
+    "countryName": "मिस्र",
+    "countryCode": "EG",
+    "phoneCode": "+20",
+    "currencyCode": "EGP",
+    "currencyName": "मिस्री पाउंड",
+    "emoji": "🇪🇬"
+  },
+  {
+    "id": 52,
+    "countryName": "अल साल्वाडोर",
+    "countryCode": "SV",
+    "phoneCode": "+503",
+    "currencyCode": "USD",
+    "currencyName": "अमेरिकी डॉलर",
+    "emoji": "🇸🇻"
+  },
+  {
+    "id": 53,
+    "countryName": "इक्वेटोरियल गिनी",
+    "countryCode": "GQ",
+    "phoneCode": "+240",
+    "currencyCode": "XAF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇬🇶"
+  },
+  {
+    "id": 54,
+    "countryName": "एरीट्रिया",
+    "countryCode": "ER",
+    "phoneCode": "+291",
+    "currencyCode": "ERN",
+    "currencyName": "नाक्फा",
+    "emoji": "🇪🇷"
+  },
+  {
+    "id": 55,
+    "countryName": "एस्टोनिया",
+    "countryCode": "EE",
+    "phoneCode": "+372",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇪🇪"
+  },
+  {
+    "id": 56,
+    "countryName": "इथियोपिया",
+    "countryCode": "ET",
+    "phoneCode": "+251",
+    "currencyCode": "ETB",
+    "currencyName": "बिर",
+    "emoji": "🇪🇹"
+  },
+  {
+    "id": 57,
+    "countryName": "फिजी",
+    "countryCode": "FJ",
+    "phoneCode": "+679",
+    "currencyCode": "FJD",
+    "currencyName": "फिजियन डॉलर",
+    "emoji": "🇫🇯"
+  },
+  {
+    "id": 58,
+    "countryName": "फिनलैंड",
+    "countryCode": "FI",
+    "phoneCode": "+358",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇫🇮"
+  },
+  {
+    "id": 59,
+    "countryName": "फ्रांस",
+    "countryCode": "FR",
+    "phoneCode": "+33",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇫🇷"
+  },
+  {
+    "id": 60,
+    "countryName": "गैबॉन",
+    "countryCode": "GA",
+    "phoneCode": "+241",
+    "currencyCode": "XAF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇬🇦"
+  },
+  {
+    "id": 61,
+    "countryName": "गाम्बिया",
+    "countryCode": "GM",
+    "phoneCode": "+220",
+    "currencyCode": "GMD",
+    "currencyName": "दलासी",
+    "emoji": "🇬🇲"
+  },
+  {
+    "id": 62,
+    "countryName": "जॉर्जिया",
+    "countryCode": "GE",
+    "phoneCode": "+995",
+    "currencyCode": "GEL",
+    "currencyName": "लारी",
+    "emoji": "🇬🇪"
+  },
+  {
+    "id": 63,
+    "countryName": "जर्मनी",
+    "countryCode": "DE",
+    "phoneCode": "+49",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇩🇪"
+  },
+  {
+    "id": 64,
+    "countryName": "घाना",
+    "countryCode": "GH",
+    "phoneCode": "+233",
+    "currencyCode": "GHS",
+    "currencyName": "सेडी",
+    "emoji": "🇬🇭"
+  },
+  {
+    "id": 65,
+    "countryName": "यूनान",
+    "countryCode": "GR",
+    "phoneCode": "+30",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇬🇷"
+  },
+  {
+    "id": 66,
+    "countryName": "ग्रेनेडा",
+    "countryCode": "GD",
+    "phoneCode": "+1-473",
+    "currencyCode": "XCD",
+    "currencyName": "ईस्ट कैरेबियन डॉलर",
+    "emoji": "🇬🇩"
+  },
+  {
+    "id": 67,
+    "countryName": "ग्वाटेमाला",
+    "countryCode": "GT",
+    "phoneCode": "+502",
+    "currencyCode": "GTQ",
+    "currencyName": "क्वेट्ज़ल",
+    "emoji": "🇬🇹"
+  },
+  {
+    "id": 68,
+    "countryName": "गिनी",
+    "countryCode": "GN",
+    "phoneCode": "+224",
+    "currencyCode": "GNF",
+    "currencyName": "गिनी फ्रैंक",
+    "emoji": "🇬🇳"
+  },
+  {
+    "id": 69,
+    "countryName": "गिनी-बिसाऊ",
+    "countryCode": "GW",
+    "phoneCode": "+245",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇬🇼"
+  },
+  {
+    "id": 70,
+    "countryName": "गुयाना",
+    "countryCode": "GY",
+    "phoneCode": "+592",
+    "currencyCode": "GYD",
+    "currencyName": "गयानी डॉलर",
+    "emoji": "🇬🇾"
+  },
+  {
+    "id": 71,
+    "countryName": "हैती",
+    "countryCode": "HT",
+    "phoneCode": "+509",
+    "currencyCode": "HTG",
+    "currencyName": "गौर्डे",
+    "emoji": "🇭🇹"
+  },
+  {
+    "id": 72,
+    "countryName": "होंडुरस",
+    "countryCode": "HN",
+    "phoneCode": "+504",
+    "currencyCode": "HNL",
+    "currencyName": "लेम्पिरा",
+    "emoji": "🇭🇳"
+  },
+  {
+    "id": 73,
+    "countryName": "हंगरी",
+    "countryCode": "HU",
+    "phoneCode": "+36",
+    "currencyCode": "HUF",
+    "currencyName": "फोरिंट",
+    "emoji": "🇭🇺"
+  },
+  {
+    "id": 74,
+    "countryName": "आइसलैंड",
+    "countryCode": "IS",
+    "phoneCode": "+354",
+    "currencyCode": "ISK",
+    "currencyName": "आईसलैंडिक क्रोना",
+    "emoji": "🇮🇸"
+  },
+  {
+    "id": 75,
+    "countryName": "भारत",
+    "countryCode": "IN",
+    "phoneCode": "+91",
+    "currencyCode": "INR",
+    "currencyName": "भारतीय रुपया",
+    "emoji": "🇮🇳"
+  },
+  {
+    "id": 76,
+    "countryName": "इंडोनेशिया",
+    "countryCode": "ID",
+    "phoneCode": "+62",
+    "currencyCode": "IDR",
+    "currencyName": "रुपिया",
+    "emoji": "🇮🇩"
+  },
+  {
+    "id": 77,
+    "countryName": "ईरान",
+    "countryCode": "IR",
+    "phoneCode": "+98",
+    "currencyCode": "IRR",
+    "currencyName": "ईरानी रियाल",
+    "emoji": "🇮🇷"
+  },
+  {
+    "id": 78,
+    "countryName": "इराक",
+    "countryCode": "IQ",
+    "phoneCode": "+964",
+    "currencyCode": "IQD",
+    "currencyName": "इराकी दिनार",
+    "emoji": "🇮🇶"
+  },
+  {
+    "id": 79,
+    "countryName": "आयरलैंड",
+    "countryCode": "IE",
+    "phoneCode": "+353",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇮🇪"
+  },
+  {
+    "id": 80,
+    "countryName": "इज़राइल",
+    "countryCode": "IL",
+    "phoneCode": "+972",
+    "currencyCode": "ILS",
+    "currencyName": "नई शेकेल",
+    "emoji": "🇮🇱"
+  },
+  {
+    "id": 81,
+    "countryName": "इटली",
+    "countryCode": "IT",
+    "phoneCode": "+39",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇮🇹"
+  },
+  {
+    "id": 82,
+    "countryName": "जमैका",
+    "countryCode": "JM",
+    "phoneCode": "+1-876",
+    "currencyCode": "JMD",
+    "currencyName": "जमैका डॉलर",
+    "emoji": "🇯🇲"
+  },
+  {
+    "id": 83,
+    "countryName": "जापान",
+    "countryCode": "JP",
+    "phoneCode": "+81",
+    "currencyCode": "JPY",
+    "currencyName": "येन",
+    "emoji": "🇯🇵"
+  },
+  {
+    "id": 84,
+    "countryName": "जॉर्डन",
+    "countryCode": "JO",
+    "phoneCode": "+962",
+    "currencyCode": "JOD",
+    "currencyName": "जॉर्डन दिनार",
+    "emoji": "🇯🇴"
+  },
+  {
+    "id": 85,
+    "countryName": "कजाखस्तान",
+    "countryCode": "KZ",
+    "phoneCode": "+7",
+    "currencyCode": "KZT",
+    "currencyName": "तेन्गे",
+    "emoji": "🇰🇿"
+  },
+  {
+    "id": 86,
+    "countryName": "केन्या",
+    "countryCode": "KE",
+    "phoneCode": "+254",
+    "currencyCode": "KES",
+    "currencyName": "केन्याई शिलिंग",
+    "emoji": "🇰🇪"
+  },
+  {
+    "id": 87,
+    "countryName": "किरिबाती",
+    "countryCode": "KI",
+    "phoneCode": "+686",
+    "currencyCode": "AUD",
+    "currencyName": "ऑस्ट्रेलियाई डॉलर",
+    "emoji": "🇰🇮"
+  },
+  {
+    "id": 88,
+    "countryName": "दक्षिण कोरिया",
+    "countryCode": "KR",
+    "phoneCode": "+82",
+    "currencyCode": "KRW",
+    "currencyName": "वोन",
+    "emoji": "🇰🇷"
+  },
+  {
+    "id": 89,
+    "countryName": "कुवैत",
+    "countryCode": "KW",
+    "phoneCode": "+965",
+    "currencyCode": "KWD",
+    "currencyName": "कुवैती दिनार",
+    "emoji": "🇰🇼"
+  },
+  {
+    "id": 90,
+    "countryName": "किर्गिज़स्तान",
+    "countryCode": "KG",
+    "phoneCode": "+996",
+    "currencyCode": "KGS",
+    "currencyName": "सॉम",
+    "emoji": "🇰🇬"
+  },
+  {
+    "id": 91,
+    "countryName": "लाओस",
+    "countryCode": "LA",
+    "phoneCode": "+856",
+    "currencyCode": "LAK",
+    "currencyName": "किप",
+    "emoji": "🇱🇦"
+  },
+  {
+    "id": 92,
+    "countryName": "लातविया",
+    "countryCode": "LV",
+    "phoneCode": "+371",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇱🇻"
+  },
+  {
+    "id": 93,
+    "countryName": "लेबनान",
+    "countryCode": "LB",
+    "phoneCode": "+961",
+    "currencyCode": "LBP",
+    "currencyName": "लेबनानी पाउंड",
+    "emoji": "🇱🇧"
+  },
+  {
+    "id": 94,
+    "countryName": "लेसोथो",
+    "countryCode": "LS",
+    "phoneCode": "+266",
+    "currencyCode": "LSL",
+    "currencyName": "लोटी",
+    "emoji": "🇱🇸"
+  },
+  {
+    "id": 95,
+    "countryName": "लाइबेरिया",
+    "countryCode": "LR",
+    "phoneCode": "+231",
+    "currencyCode": "LRD",
+    "currencyName": "लाइबेरियाई डॉलर",
+    "emoji": "🇱🇷"
+  },
+  {
+    "id": 96,
+    "countryName": "लीबिया",
+    "countryCode": "LY",
+    "phoneCode": "+218",
+    "currencyCode": "LYD",
+    "currencyName": "लीबियाई दिनार",
+    "emoji": "🇱🇾"
+  },
+  {
+    "id": 97,
+    "countryName": "लिकटेंस्टीन",
+    "countryCode": "LI",
+    "phoneCode": "+423",
+    "currencyCode": "CHF",
+    "currencyName": "स्विस फ्रैंक",
+    "emoji": "🇱🇮"
+  },
+  {
+    "id": 98,
+    "countryName": "लिथुआनिया",
+    "countryCode": "LT",
+    "phoneCode": "+370",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇱🇹"
+  },
+  {
+    "id": 99,
+    "countryName": "लक्समबर्ग",
+    "countryCode": "LU",
+    "phoneCode": "+352",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇱🇺"
+  },
+  {
+    "id": 100,
+    "countryName": "मकाओ",
+    "countryCode": "MO",
+    "phoneCode": "+853",
+    "currencyCode": "MOP",
+    "currencyName": "पाटाका",
+    "emoji": "🇲🇴"
+  },
+  {
+    "id": 101,
+    "countryName": "मकदूनिया",
+    "countryCode": "MK",
+    "phoneCode": "+389",
+    "currencyCode": "MKD",
+    "currencyName": "देनार",
+    "emoji": "🇲🇰"
+  },
+  {
+    "id": 102,
+    "countryName": "मेडागास्कर",
+    "countryCode": "MG",
+    "phoneCode": "+261",
+    "currencyCode": "MGA",
+    "currencyName": "मालागासी अरियारी",
+    "emoji": "🇲🇬"
+  },
+  {
+    "id": 103,
+    "countryName": "मालावी",
+    "countryCode": "MW",
+    "phoneCode": "+265",
+    "currencyCode": "MWK",
+    "currencyName": "क्वाचा",
+    "emoji": "🇲🇼"
+  },
+  {
+    "id": 104,
+    "countryName": "मलेशिया",
+    "countryCode": "MY",
+    "phoneCode": "+60",
+    "currencyCode": "MYR",
+    "currencyName": "रिंग्गित",
+    "emoji": "🇲🇾"
+  },
+  {
+    "id": 105,
+    "countryName": "मालदीव",
+    "countryCode": "MV",
+    "phoneCode": "+960",
+    "currencyCode": "MVR",
+    "currencyName": "रुफिया",
+    "emoji": "🇲🇻"
+  },
+  {
+    "id": 106,
+    "countryName": "माली",
+    "countryCode": "ML",
+    "phoneCode": "+223",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇲🇱"
+  },
+  {
+    "id": 107,
+    "countryName": "माल्टा",
+    "countryCode": "MT",
+    "phoneCode": "+356",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇲🇹"
+  },
+  {
+    "id": 108,
+    "countryName": "मार्शल द्वीपसमूह",
+    "countryCode": "MH",
+    "phoneCode": "+692",
+    "currencyCode": "USD",
+    "currencyName": "अमेरिकी डॉलर",
+    "emoji": "🇲🇭"
+  },
+  {
+    "id": 109,
+    "countryName": "मॉरिटानिया",
+    "countryCode": "MR",
+    "phoneCode": "+222",
+    "currencyCode": "MRU",
+    "currencyName": "औगुइया",
+    "emoji": "🇲🇷"
+  },
+  {
+    "id": 110,
+    "countryName": "मॉरिशस",
+    "countryCode": "MU",
+    "phoneCode": "+230",
+    "currencyCode": "MUR",
+    "currencyName": "मॉरिशियन रुपया",
+    "emoji": "🇲🇺"
+  },
+  {
+    "id": 111,
+    "countryName": "मेक्सिको",
+    "countryCode": "MX",
+    "phoneCode": "+52",
+    "currencyCode": "MXN",
+    "currencyName": "पेसो",
+    "emoji": "🇲🇽"
+  },
+  {
+    "id": 112,
+    "countryName": "माइक्रोनेशिया",
+    "countryCode": "FM",
+    "phoneCode": "+691",
+    "currencyCode": "USD",
+    "currencyName": "अमेरिकी डॉलर",
+    "emoji": "🇫🇲"
+  },
+  {
+    "id": 113,
+    "countryName": "मोल्दोवा",
+    "countryCode": "MD",
+    "phoneCode": "+373",
+    "currencyCode": "MDL",
+    "currencyName": "लेउ",
+    "emoji": "🇲🇩"
+  },
+  {
+    "id": 114,
+    "countryName": "मोनाको",
+    "countryCode": "MC",
+    "phoneCode": "+377",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇲🇨"
+  },
+  {
+    "id": 115,
+    "countryName": "मंगोलिया",
+    "countryCode": "MN",
+    "phoneCode": "+976",
+    "currencyCode": "MNT",
+    "currencyName": "तुग्रिक",
+    "emoji": "🇲🇳"
+  },
+  {
+    "id": 116,
+    "countryName": "मोंटेनेग्रो",
+    "countryCode": "ME",
+    "phoneCode": "+382",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇲🇪"
+  },
+  {
+    "id": 117,
+    "countryName": "मोरक्को",
+    "countryCode": "MA",
+    "phoneCode": "+212",
+    "currencyCode": "MAD",
+    "currencyName": "मोरक्कन दिरहम",
+    "emoji": "🇲🇦"
+  },
+  {
+    "id": 118,
+    "countryName": "मोजाम्बिक",
+    "countryCode": "MZ",
+    "phoneCode": "+258",
+    "currencyCode": "MZN",
+    "currencyName": "मेटिकाल",
+    "emoji": "🇲🇿"
+  },
+  {
+    "id": 119,
+    "countryName": "म्यांमार",
+    "countryCode": "MM",
+    "phoneCode": "+95",
+    "currencyCode": "MMK",
+    "currencyName": "क्यात",
+    "emoji": "🇲🇲"
+  },
+  {
+    "id": 120,
+    "countryName": "नामीबिया",
+    "countryCode": "NA",
+    "phoneCode": "+264",
+    "currencyCode": "NAD",
+    "currencyName": "नामीबियाई डॉलर",
+    "emoji": "🇳🇦"
+  },
+  {
+    "id": 121,
+    "countryName": "नाउरू",
+    "countryCode": "NR",
+    "phoneCode": "+674",
+    "currencyCode": "AUD",
+    "currencyName": "ऑस्ट्रेलियाई डॉलर",
+    "emoji": "🇳🇷"
+  },
+  {
+    "id": 122,
+    "countryName": "नेपाल",
+    "countryCode": "NP",
+    "phoneCode": "+977",
+    "currencyCode": "NPR",
+    "currencyName": "नेपाली रुपया",
+    "emoji": "🇳🇵"
+  },
+  {
+    "id": 123,
+    "countryName": "नीदरलैंड्स",
+    "countryCode": "NL",
+    "phoneCode": "+31",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇳🇱"
+  },
+  {
+    "id": 124,
+    "countryName": "न्यूजीलैंड",
+    "countryCode": "NZ",
+    "phoneCode": "+64",
+    "currencyCode": "NZD",
+    "currencyName": "न्यूजीलैंड डॉलर",
+    "emoji": "🇳🇿"
+  },
+  {
+    "id": 125,
+    "countryName": "निकारागुआ",
+    "countryCode": "NI",
+    "phoneCode": "+505",
+    "currencyCode": "NIO",
+    "currencyName": "कोरडोबा",
+    "emoji": "🇳🇮"
+  },
+  {
+    "id": 126,
+    "countryName": "नाइजर",
+    "countryCode": "NE",
+    "phoneCode": "+227",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇳🇪"
+  },
+  {
+    "id": 127,
+    "countryName": "नाइजीरिया",
+    "countryCode": "NG",
+    "phoneCode": "+234",
+    "currencyCode": "NGN",
+    "currencyName": "नाइजीरियाई नायरा",
+    "emoji": "🇳🇬"
+  },
+  {
+    "id": 128,
+    "countryName": "उत्तर कोरिया",
+    "countryCode": "KP",
+    "phoneCode": "+850",
+    "currencyCode": "KPW",
+    "currencyName": "उत्तर कोरियाई वोन",
+    "emoji": "🇰🇵"
+  },
+  {
+    "id": 129,
+    "countryName": "नॉर्वे",
+    "countryCode": "NO",
+    "phoneCode": "+47",
+    "currencyCode": "NOK",
+    "currencyName": "नॉर्वेजियन क्रोन",
+    "emoji": "🇳🇴"
+  },
+  {
+    "id": 130,
+    "countryName": "ओमान",
+    "countryCode": "OM",
+    "phoneCode": "+968",
+    "currencyCode": "OMR",
+    "currencyName": "ओमानी रियाल",
+    "emoji": "🇴🇲"
+  },
+  {
+    "id": 131,
+    "countryName": "पाकिस्तान",
+    "countryCode": "PK",
+    "phoneCode": "+92",
+    "currencyCode": "PKR",
+    "currencyName": "पाकिस्तानी रुपया",
+    "emoji": "🇵🇰"
+  },
+  {
+    "id": 132,
+    "countryName": "पलाऊ",
+    "countryCode": "PW",
+    "phoneCode": "+680",
+    "currencyCode": "USD",
+    "currencyName": "अमेरिकी डॉलर",
+    "emoji": "🇵🇼"
+  },
+  {
+    "id": 133,
+    "countryName": "पानामा",
+    "countryCode": "PA",
+    "phoneCode": "+507",
+    "currencyCode": "PAB",
+    "currencyName": "बल्बोआ",
+    "emoji": "🇵🇦"
+  },
+  {
+    "id": 134,
+    "countryName": "पापुआ न्यू गिनी",
+    "countryCode": "PG",
+    "phoneCode": "+675",
+    "currencyCode": "PGK",
+    "currencyName": "कीना",
+    "emoji": "🇵🇬"
+  },
+  {
+    "id": 135,
+    "countryName": "पराग्वे",
+    "countryCode": "PY",
+    "phoneCode": "+595",
+    "currencyCode": "PYG",
+    "currencyName": "गुआरानी",
+    "emoji": "🇵🇾"
+  },
+  {
+    "id": 136,
+    "countryName": "पेरू",
+    "countryCode": "PE",
+    "phoneCode": "+51",
+    "currencyCode": "PEN",
+    "currencyName": "सोल",
+    "emoji": "🇵🇪"
+  },
+  {
+    "id": 137,
+    "countryName": "फिलीपींस",
+    "countryCode": "PH",
+    "phoneCode": "+63",
+    "currencyCode": "PHP",
+    "currencyName": "पेसो",
+    "emoji": "🇵🇭"
+  },
+  {
+    "id": 138,
+    "countryName": "पोलैंड",
+    "countryCode": "PL",
+    "phoneCode": "+48",
+    "currencyCode": "PLN",
+    "currencyName": "ज़्लॉटी",
+    "emoji": "🇵🇱"
+  },
+  {
+    "id": 139,
+    "countryName": "पुर्तगाल",
+    "countryCode": "PT",
+    "phoneCode": "+351",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇵🇹"
+  },
+  {
+    "id": 140,
+    "countryName": "कतर",
+    "countryCode": "QA",
+    "phoneCode": "+974",
+    "currencyCode": "QAR",
+    "currencyName": "क़तरी रियाल",
+    "emoji": "🇶🇦"
+  },
+  {
+    "id": 141,
+    "countryName": "रोमानिया",
+    "countryCode": "RO",
+    "phoneCode": "+40",
+    "currencyCode": "RON",
+    "currencyName": "लेउ",
+    "emoji": "🇷🇴"
+  },
+  {
+    "id": 142,
+    "countryName": "रूस",
+    "countryCode": "RU",
+    "phoneCode": "+7",
+    "currencyCode": "RUB",
+    "currencyName": "रूबल",
+    "emoji": "🇷🇺"
+  },
+  {
+    "id": 143,
+    "countryName": "रवांडा",
+    "countryCode": "RW",
+    "phoneCode": "+250",
+    "currencyCode": "RWF",
+    "currencyName": "रवांडा फ्रैंक",
+    "emoji": "🇷🇼"
+  },
+  {
+    "id": 144,
+    "countryName": "सेंट किट्स और नेविस",
+    "countryCode": "KN",
+    "phoneCode": "+1-869",
+    "currencyCode": "XCD",
+    "currencyName": "ईस्ट कैरेबियन डॉलर",
+    "emoji": "🇰🇳"
+  },
+  {
+    "id": 145,
+    "countryName": "सेंट लूसिया",
+    "countryCode": "LC",
+    "phoneCode": "+1-758",
+    "currencyCode": "XCD",
+    "currencyName": "ईस्ट कैरेबियन डॉलर",
+    "emoji": "🇱🇨"
+  },
+  {
+    "id": 146,
+    "countryName": "सेंट विंसेंट और ग्रेनेडाइंस",
+    "countryCode": "VC",
+    "phoneCode": "+1-784",
+    "currencyCode": "XCD",
+    "currencyName": "ईस्ट कैरेबियन डॉलर",
+    "emoji": "🇻🇨"
+  },
+  {
+    "id": 147,
+    "countryName": "सामोआ",
+    "countryCode": "WS",
+    "phoneCode": "+685",
+    "currencyCode": "WST",
+    "currencyName": "ताला",
+    "emoji": "🇼🇸"
+  },
+  {
+    "id": 148,
+    "countryName": "सैन मारिनो",
+    "countryCode": "SM",
+    "phoneCode": "+378",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇸🇲"
+  },
+  {
+    "id": 149,
+    "countryName": "साओ टोमे और प्रिंसिपे",
+    "countryCode": "ST",
+    "phoneCode": "+239",
+    "currencyCode": "STN",
+    "currencyName": "डोबरा",
+    "emoji": "🇸🇹"
+  },
+  {
+    "id": 150,
+    "countryName": "सऊदी अरब",
+    "countryCode": "SA",
+    "phoneCode": "+966",
+    "currencyCode": "SAR",
+    "currencyName": "सऊदी रियाल",
+    "emoji": "🇸🇦"
+  },
+  {
+    "id": 151,
+    "countryName": "सेनेगल",
+    "countryCode": "SN",
+    "phoneCode": "+221",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇸🇳"
+  },
+  {
+    "id": 152,
+    "countryName": "सर्बिया",
+    "countryCode": "RS",
+    "phoneCode": "+381",
+    "currencyCode": "RSD",
+    "currencyName": "सर्बियन दिनार",
+    "emoji": "🇷🇸"
+  },
+  {
+    "id": 153,
+    "countryName": "सेशेल्स",
+    "countryCode": "SC",
+    "phoneCode": "+248",
+    "currencyCode": "SCR",
+    "currencyName": "सेशेलोइस रुपया",
+    "emoji": "🇸🇨"
+  },
+  {
+    "id": 154,
+    "countryName": "सिएरा लियोन",
+    "countryCode": "SL",
+    "phoneCode": "+232",
+    "currencyCode": "SLL",
+    "currencyName": "लियोन",
+    "emoji": "🇸🇱"
+  },
+  {
+    "id": 155,
+    "countryName": "सिंगापुर",
+    "countryCode": "SG",
+    "phoneCode": "+65",
+    "currencyCode": "SGD",
+    "currencyName": "सिंगापुर डॉलर",
+    "emoji": "🇸🇬"
+  },
+  {
+    "id": 156,
+    "countryName": "स्लोवाकिया",
+    "countryCode": "SK",
+    "phoneCode": "+421",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇸🇰"
+  },
+  {
+    "id": 157,
+    "countryName": "स्लोवेनिया",
+    "countryCode": "SI",
+    "phoneCode": "+386",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇸🇮"
+  },
+  {
+    "id": 158,
+    "countryName": "सोलोमन द्वीप",
+    "countryCode": "SB",
+    "phoneCode": "+677",
+    "currencyCode": "SBD",
+    "currencyName": "सोलोमन द्वीप डॉलर",
+    "emoji": "🇸🇧"
+  },
+  {
+    "id": 159,
+    "countryName": "सोमालिया",
+    "countryCode": "SO",
+    "phoneCode": "+252",
+    "currencyCode": "SOS",
+    "currencyName": "सोमाली शिलिंग",
+    "emoji": "🇸🇴"
+  },
+  {
+    "id": 160,
+    "countryName": "दक्षिण अफ्रीका",
+    "countryCode": "ZA",
+    "phoneCode": "+27",
+    "currencyCode": "ZAR",
+    "currencyName": "रैंड",
+    "emoji": "🇿🇦"
+  },
+  {
+    "id": 161,
+    "countryName": "दक्षिण सूडान",
+    "countryCode": "SS",
+    "phoneCode": "+211",
+    "currencyCode": "SSP",
+    "currencyName": "दक्षिण सूडानी पाउंड",
+    "emoji": "🇸🇸"
+  },
+  {
+    "id": 162,
+    "countryName": "स्पेन",
+    "countryCode": "ES",
+    "phoneCode": "+34",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇪🇸"
+  },
+  {
+    "id": 163,
+    "countryName": "श्रीलंका",
+    "countryCode": "LK",
+    "phoneCode": "+94",
+    "currencyCode": "LKR",
+    "currencyName": "श्रीलंकाई रुपया",
+    "emoji": "🇱🇰"
+  },
+  {
+    "id": 164,
+    "countryName": "सूडान",
+    "countryCode": "SD",
+    "phoneCode": "+249",
+    "currencyCode": "SDG",
+    "currencyName": "सूडानी पाउंड",
+    "emoji": "🇸🇩"
+  },
+  {
+    "id": 165,
+    "countryName": "सूरीनाम",
+    "countryCode": "SR",
+    "phoneCode": "+597",
+    "currencyCode": "SRD",
+    "currencyName": "सूरीनामी डॉलर",
+    "emoji": "🇸🇷"
+  },
+  {
+    "id": 166,
+    "countryName": "स्वाजीलैंड",
+    "countryCode": "SZ",
+    "phoneCode": "+268",
+    "currencyCode": "SZL",
+    "currencyName": "लीलांगेनी",
+    "emoji": "🇸🇿"
+  },
+  {
+    "id": 167,
+    "countryName": "स्वीडन",
+    "countryCode": "SE",
+    "phoneCode": "+46",
+    "currencyCode": "SEK",
+    "currencyName": "स्वीडिश क्रोना",
+    "emoji": "🇸🇪"
+  },
+  {
+    "id": 168,
+    "countryName": "स्विट्ज़रलैंड",
+    "countryCode": "CH",
+    "phoneCode": "+41",
+    "currencyCode": "CHF",
+    "currencyName": "स्विस फ्रैंक",
+    "emoji": "🇨🇭"
+  },
+  {
+    "id": 169,
+    "countryName": "सीरिया",
+    "countryCode": "SY",
+    "phoneCode": "+963",
+    "currencyCode": "SYP",
+    "currencyName": "सीरियाई पाउंड",
+    "emoji": "🇸🇾"
+  },
+  {
+    "id": 170,
+    "countryName": "ताजिकिस्तान",
+    "countryCode": "TJ",
+    "phoneCode": "+992",
+    "currencyCode": "TJS",
+    "currencyName": "सोमोनी",
+    "emoji": "🇹🇯"
+  },
+  {
+    "id": 171,
+    "countryName": "तंजानिया",
+    "countryCode": "TZ",
+    "phoneCode": "+255",
+    "currencyCode": "TZS",
+    "currencyName": "तंजानियाई शिलिंग",
+    "emoji": "🇹🇿"
+  },
+  {
+    "id": 172,
+    "countryName": "थाईलैंड",
+    "countryCode": "TH",
+    "phoneCode": "+66",
+    "currencyCode": "THB",
+    "currencyName": "भात",
+    "emoji": "🇹🇭"
+  },
+  {
+    "id": 173,
+    "countryName": "टोगो",
+    "countryCode": "TG",
+    "phoneCode": "+228",
+    "currencyCode": "XOF",
+    "currencyName": "सीएफए फ्रैंक",
+    "emoji": "🇹🇬"
+  },
+  {
+    "id": 174,
+    "countryName": "टोंगा",
+    "countryCode": "TO",
+    "phoneCode": "+676",
+    "currencyCode": "TOP",
+    "currencyName": "पाआंगा",
+    "emoji": "🇹🇴"
+  },
+  {
+    "id": 175,
+    "countryName": "त्रिनिदाद और टोबैगो",
+    "countryCode": "TT",
+    "phoneCode": "+1-868",
+    "currencyCode": "TTD",
+    "currencyName": "त्रिनिदाद और टोबैगो डॉलर",
+    "emoji": "🇹🇹"
+  },
+  {
+    "id": 176,
+    "countryName": "ट्यूनीशिया",
+    "countryCode": "TN",
+    "phoneCode": "+216",
+    "currencyCode": "TND",
+    "currencyName": "ट्यूनीशियाई दिनार",
+    "emoji": "🇹🇳"
+  },
+  {
+    "id": 177,
+    "countryName": "तुर्की",
+    "countryCode": "TR",
+    "phoneCode": "+90",
+    "currencyCode": "TRY",
+    "currencyName": "तुर्की लीरा",
+    "emoji": "🇹🇷"
+  },
+  {
+    "id": 178,
+    "countryName": "तुर्कमेनिस्तान",
+    "countryCode": "TM",
+    "phoneCode": "+993",
+    "currencyCode": "TMT",
+    "currencyName": "मैनाट",
+    "emoji": "🇹🇲"
+  },
+  {
+    "id": 179,
+    "countryName": "तुवालु",
+    "countryCode": "TV",
+    "phoneCode": "+688",
+    "currencyCode": "AUD",
+    "currencyName": "ऑस्ट्रेलियाई डॉलर",
+    "emoji": "🇹🇻"
+  },
+  {
+    "id": 180,
+    "countryName": "यूगांडा",
+    "countryCode": "UG",
+    "phoneCode": "+256",
+    "currencyCode": "UGX",
+    "currencyName": "युगांडा शिलिंग",
+    "emoji": "🇺🇬"
+  },
+  {
+    "id": 181,
+    "countryName": "यूक्रेन",
+    "countryCode": "UA",
+    "phoneCode": "+380",
+    "currencyCode": "UAH",
+    "currencyName": "ह्रीव्निया",
+    "emoji": "🇺🇦"
+  },
+  {
+    "id": 182,
+    "countryName": "संयुक्त अरब अमीरात",
+    "countryCode": "AE",
+    "phoneCode": "+971",
+    "currencyCode": "AED",
+    "currencyName": "दिरहम",
+    "emoji": "🇦🇪"
+  },
+  {
+    "id": 183,
+    "countryName": "यूनाइटेड किंगडम",
+    "countryCode": "GB",
+    "phoneCode": "+44",
+    "currencyCode": "GBP",
+    "currencyName": "पाउंड स्टर्लिंग",
+    "emoji": "🇬🇧"
+  },
+  {
+    "id": 184,
+    "countryName": "संयुक्त राज्य अमेरिका",
+    "countryCode": "US",
+    "phoneCode": "+1",
+    "currencyCode": "USD",
+    "currencyName": "अमेरिकी डॉलर",
+    "emoji": "🇺🇸"
+  },
+  {
+    "id": 185,
+    "countryName": "उरुग्वे",
+    "countryCode": "UY",
+    "phoneCode": "+598",
+    "currencyCode": "UYU",
+    "currencyName": "उरुग्वे पेसो",
+    "emoji": "🇺🇾"
+  },
+  {
+    "id": 186,
+    "countryName": "उज़्बेकिस्तान",
+    "countryCode": "UZ",
+    "phoneCode": "+998",
+    "currencyCode": "UZS",
+    "currencyName": "सोम",
+    "emoji": "🇺🇿"
+  },
+  {
+    "id": 187,
+    "countryName": "वनुआतु",
+    "countryCode": "VU",
+    "phoneCode": "+678",
+    "currencyCode": "VUV",
+    "currencyName": "वातु",
+    "emoji": "🇻🇺"
+  },
+  {
+    "id": 188,
+    "countryName": "वेटिकन सिटी",
+    "countryCode": "VA",
+    "phoneCode": "+379",
+    "currencyCode": "EUR",
+    "currencyName": "यूरो",
+    "emoji": "🇻🇦"
+  },
+  {
+    "id": 189,
+    "countryName": "वेनेजुएला",
+    "countryCode": "VE",
+    "phoneCode": "+58",
+    "currencyCode": "VES",
+    "currencyName": "बोलिवर",
+    "emoji": "🇻🇪"
+  },
+  {
+    "id": 190,
+    "countryName": "वियतनाम",
+    "countryCode": "VN",
+    "phoneCode": "+84",
+    "currencyCode": "VND",
+    "currencyName": "डोंग",
+    "emoji": "🇻🇳"
+  },
+  {
+    "id": 191,
+    "countryName": "यमन",
+    "countryCode": "YE",
+    "phoneCode": "+967",
+    "currencyCode": "YER",
+    "currencyName": "यमनी रियाल",
+    "emoji": "🇾🇪"
+  },
+  {
+    "id": 192,
+    "countryName": "जाम्बिया",
+    "countryCode": "ZM",
+    "phoneCode": "+260",
+    "currencyCode": "ZMW",
+    "currencyName": "जाम्बियन क्वाचा",
+    "emoji": "🇿🇲"
+  },
+  {
+    "id": 193,
+    "countryName": "जिम्बाब्वे",
+    "countryCode": "ZW",
+    "phoneCode": "+263",
+    "currencyCode": "ZWL",
+    "currencyName": "जिम्बाब्वे डॉलर",
+    "emoji": "🇿🇼"
+  },
+  {
+    "id": 194,
+    "countryName": "अरूबा",
+    "countryCode": "AW",
+    "phoneCode": "+297",
+    "currencyCode": "AWG",
+    "currencyName": "अरूबा फ्लोरिन",
+    "emoji": "🇦🇼"
+  },
+  {
+    "id": 195,
+    "countryName": "पश्चिमी सहारा",
+    "countryCode": "EH",
+    "phoneCode": "+212",
+    "currencyCode": "MAD",
+    "currencyName": "मोरक्कन दिरहम",
+    "emoji": "🇪🇭"
+  }
+]

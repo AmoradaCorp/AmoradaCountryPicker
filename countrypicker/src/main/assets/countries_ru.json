@@ -1,0 +1,1757 @@
+[
+  {
+    "id": 1,
+    "countryName": "Афганистан",
+    "countryCode": "AF",
+    "phoneCode": "+93",
+    "currencyCode": "AFN",
+    "currencyName": "афгани",
+    "emoji": "🇦🇫"
+  },
+  {
+    "id": 2,
+    "countryName": "Албания",
+    "countryCode": "AL",
+    "phoneCode": "+355",
+    "currencyCode": "ALL",
+    "currencyName": "лек",
+    "emoji": "🇦🇱"
+  },
+  {
+    "id": 3,
+    "countryName": "Алжир",
+    "countryCode": "DZ",
+    "phoneCode": "+213",
+    "currencyCode": "DZD",
+    "currencyName": "алжирский динар",
+    "emoji": "🇩🇿"
+  },
+  {
+    "id": 4,
+    "countryName": "Андорра",
+    "countryCode": "AD",
+    "phoneCode": "+376",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇦🇩"
+  },
+  {
+    "id": 5,
+    "countryName": "Ангола",
+    "countryCode": "AO",
+    "phoneCode": "+244",
+    "currencyCode": "AOA",
+    "currencyName": "кванза",
+    "emoji": "🇦🇴"
+  },
+  {
+    "id": 6,
+    "countryName": "Антигуа и Барбуда",
+    "countryCode": "AG",
+    "phoneCode": "+1-268",
+    "currencyCode": "XCD",
+    "currencyName": "восточно-карибский доллар",
+    "emoji": "🇦🇬"
+  },
+  {
+    "id": 7,
+    "countryName": "Аргентина",
+    "countryCode": "AR",
+    "phoneCode": "+54",
+    "currencyCode": "ARS",
+    "currencyName": "аргентинское песо",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": 8,
+    "countryName": "Армения",
+    "countryCode": "AM",
+    "phoneCode": "+374",
+    "currencyCode": "AMD",
+    "currencyName": "драм",
+    "emoji": "🇦🇲"
+  },
+  {
+    "id": 9,
+    "countryName": "Австралия",
+    "countryCode": "AU",
+    "phoneCode": "+61",
+    "currencyCode": "AUD",
+    "currencyName": "австралийский доллар",
+    "emoji": "🇦🇺"
+  },
+  {
+    "id": 10,
+    "countryName": "Австрия",
+    "countryCode": "AT",
+    "phoneCode": "+43",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇦🇹"
+  },
+  {
+    "id": 11,
+    "countryName": "Азербайджан",
+    "countryCode": "AZ",
+    "phoneCode": "+994",
+    "currencyCode": "AZN",
+    "currencyName": "манат",
+    "emoji": "🇦🇿"
+  },
+  {
+    "id": 12,
+    "countryName": "Багамские Острова",
+    "countryCode": "BS",
+    "phoneCode": "+1-242",
+    "currencyCode": "BSD",
+    "currencyName": "багамский доллар",
+    "emoji": "🇧🇸"
+  },
+  {
+    "id": 13,
+    "countryName": "Бахрейн",
+    "countryCode": "BH",
+    "phoneCode": "+973",
+    "currencyCode": "BHD",
+    "currencyName": "бахрейнский динар",
+    "emoji": "🇧🇭"
+  },
+  {
+    "id": 14,
+    "countryName": "Бангладеш",
+    "countryCode": "BD",
+    "phoneCode": "+880",
+    "currencyCode": "BDT",
+    "currencyName": "така",
+    "emoji": "🇧🇩"
+  },
+  {
+    "id": 15,
+    "countryName": "Барбадос",
+    "countryCode": "BB",
+    "phoneCode": "+1-246",
+    "currencyCode": "BBD",
+    "currencyName": "барбадосский доллар",
+    "emoji": "🇧🇧"
+  },
+  {
+    "id": 16,
+    "countryName": "Беларусь",
+    "countryCode": "BY",
+    "phoneCode": "+375",
+    "currencyCode": "BYN",
+    "currencyName": "белорусский рубль",
+    "emoji": "🇧🇾"
+  },
+  {
+    "id": 17,
+    "countryName": "Бельгия",
+    "countryCode": "BE",
+    "phoneCode": "+32",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇧🇪"
+  },
+  {
+    "id": 18,
+    "countryName": "Белиз",
+    "countryCode": "BZ",
+    "phoneCode": "+501",
+    "currencyCode": "BZD",
+    "currencyName": "белизский доллар",
+    "emoji": "🇧🇿"
+  },
+  {
+    "id": 19,
+    "countryName": "Бенин",
+    "countryCode": "BJ",
+    "phoneCode": "+229",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА",
+    "emoji": "🇧🇯"
+  },
+  {
+    "id": 20,
+    "countryName": "Бутан",
+    "countryCode": "BT",
+    "phoneCode": "+975",
+    "currencyCode": "BTN",
+    "currencyName": "нгултрум",
+    "emoji": "🇧🇹"
+  },
+  {
+    "id": 21,
+    "countryName": "Боливия",
+    "countryCode": "BO",
+    "phoneCode": "+591",
+    "currencyCode": "BOB",
+    "currencyName": "боливиано",
+    "emoji": "🇧🇴"
+  },
+  {
+    "id": 22,
+    "countryName": "Босния и Герцеговина",
+    "countryCode": "BA",
+    "phoneCode": "+387",
+    "currencyCode": "BAM",
+    "currencyName": "конвертируемая марка",
+    "emoji": "🇧🇦"
+  },
+  {
+    "id": 23,
+    "countryName": "Ботсвана",
+    "countryCode": "BW",
+    "phoneCode": "+267",
+    "currencyCode": "BWP",
+    "currencyName": "пула",
+    "emoji": "🇧🇼"
+  },
+  {
+    "id": 24,
+    "countryName": "Бразилия",
+    "countryCode": "BR",
+    "phoneCode": "+55",
+    "currencyCode": "BRL",
+    "currencyName": "реал",
+    "emoji": "🇧🇷"
+  },
+  {
+    "id": 25,
+    "countryName": "Бруней",
+    "countryCode": "BN",
+    "phoneCode": "+673",
+    "currencyCode": "BND",
+    "currencyName": "брунейский доллар",
+    "emoji": "🇧🇳"
+  },
+  {
+    "id": 26,
+    "countryName": "Болгария",
+    "countryCode": "BG",
+    "phoneCode": "+359",
+    "currencyCode": "BGN",
+    "currencyName": "лев",
+    "emoji": "🇧🇬"
+  },
+  {
+    "id": 27,
+    "countryName": "Буркина-Фасо",
+    "countryCode": "BF",
+    "phoneCode": "+226",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА",
+    "emoji": "🇧🇫"
+  },
+  {
+    "id": 28,
+    "countryName": "Бурунди",
+    "countryCode": "BI",
+    "phoneCode": "+257",
+    "currencyCode": "BIF",
+    "currencyName": "бурундийский франк",
+    "emoji": "🇧🇮"
+  },
+  {
+    "id": 29,
+    "countryName": "Камбоджа",
+    "countryCode": "KH",
+    "phoneCode": "+855",
+    "currencyCode": "KHR",
+    "currencyName": "риэль",
+    "emoji": "🇰🇭"
+  },
+  {
+    "id": 30,
+    "countryName": "Камерун",
+    "countryCode": "CM",
+    "phoneCode": "+237",
+    "currencyCode": "XAF",
+    "currencyName": "франк КФА",
+    "emoji": "🇨🇲"
+  },
+  {
+    "id": 31,
+    "countryName": "Канада",
+    "countryCode": "CA",
+    "phoneCode": "+1",
+    "currencyCode": "CAD",
+    "currencyName": "канадский доллар",
+    "emoji": "🇨🇦"
+  },
+  {
+    "id": 32,
+    "countryName": "Кабо-Верде",
+    "countryCode": "CV",
+    "phoneCode": "+238",
+    "currencyCode": "CVE",
+    "currencyName": "эскудо Кабо-Верде",
+    "emoji": "🇨🇻"
+  },
+  {
+    "id": 33,
+    "countryName": "Центральноафриканская Республика",
+    "countryCode": "CF",
+    "phoneCode": "+236",
+    "currencyCode": "XAF",
+    "currencyName": "франк КФА BEAC",
+    "emoji": "🇨🇫"
+  },
+  {
+    "id": 34,
+    "countryName": "Чад",
+    "countryCode": "TD",
+    "phoneCode": "+235",
+    "currencyCode": "XAF",
+    "currencyName": "франк КФА BEAC",
+    "emoji": "🇹🇩"
+  },
+  {
+    "id": 35,
+    "countryName": "Чили",
+    "countryCode": "CL",
+    "phoneCode": "+56",
+    "currencyCode": "CLP",
+    "currencyName": "чилийское песо",
+    "emoji": "🇨🇱"
+  },
+  {
+    "id": 36,
+    "countryName": "Китай",
+    "countryCode": "CN",
+    "phoneCode": "+86",
+    "currencyCode": "CNY",
+    "currencyName": "юань",
+    "emoji": "🇨🇳"
+  },
+  {
+    "id": 37,
+    "countryName": "Колумбия",
+    "countryCode": "CO",
+    "phoneCode": "+57",
+    "currencyCode": "COP",
+    "currencyName": "колумбийское песо",
+    "emoji": "🇨🇴"
+  },
+  {
+    "id": 38,
+    "countryName": "Коморы",
+    "countryCode": "KM",
+    "phoneCode": "+269",
+    "currencyCode": "KMF",
+    "currencyName": "коморский франк",
+    "emoji": "🇰🇲"
+  },
+  {
+    "id": 39,
+    "countryName": "Демократическая Республика Конго",
+    "countryCode": "CD",
+    "phoneCode": "+243",
+    "currencyCode": "CDF",
+    "currencyName": "конголезский франк",
+    "emoji": "🇨🇩"
+  },
+  {
+    "id": 40,
+    "countryName": "Республика Конго",
+    "countryCode": "CG",
+    "phoneCode": "+242",
+    "currencyCode": "XAF",
+    "currencyName": "франк КФА BEAC",
+    "emoji": "🇨🇬"
+  },
+  {
+    "id": 41,
+    "countryName": "Коста-Рика",
+    "countryCode": "CR",
+    "phoneCode": "+506",
+    "currencyCode": "CRC",
+    "currencyName": "костариканский колон",
+    "emoji": "🇨🇷"
+  },
+  {
+    "id": 42,
+    "countryName": "Хорватия",
+    "countryCode": "HR",
+    "phoneCode": "+385",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇭🇷"
+  },
+  {
+    "id": 43,
+    "countryName": "Куба",
+    "countryCode": "CU",
+    "phoneCode": "+53",
+    "currencyCode": "CUP",
+    "currencyName": "кубинское песо",
+    "emoji": "🇨🇺"
+  },
+  {
+    "id": 44,
+    "countryName": "Кипр",
+    "countryCode": "CY",
+    "phoneCode": "+357",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇨🇾"
+  },
+  {
+    "id": 45,
+    "countryName": "Чехия",
+    "countryCode": "CZ",
+    "phoneCode": "+420",
+    "currencyCode": "CZK",
+    "currencyName": "чешская крона",
+    "emoji": "🇨🇿"
+  },
+  {
+    "id": 46,
+    "countryName": "Дания",
+    "countryCode": "DK",
+    "phoneCode": "+45",
+    "currencyCode": "DKK",
+    "currencyName": "датская крона",
+    "emoji": "🇩🇰"
+  },
+  {
+    "id": 47,
+    "countryName": "Джибути",
+    "countryCode": "DJ",
+    "phoneCode": "+253",
+    "currencyCode": "DJF",
+    "currencyName": "джибутийский франк",
+    "emoji": "🇩🇯"
+  },
+  {
+    "id": 48,
+    "countryName": "Доминика",
+    "countryCode": "DM",
+    "phoneCode": "+1-767",
+    "currencyCode": "XCD",
+    "currencyName": "восточно-карибский доллар",
+    "emoji": "🇩🇲"
+  },
+  {
+    "id": 49,
+    "countryName": "Доминиканская Республика",
+    "countryCode": "DO",
+    "phoneCode": "+1-809",
+    "currencyCode": "DOP",
+    "currencyName": "доминиканское песо",
+    "emoji": "🇩🇴"
+  },
+  {
+    "id": 50,
+    "countryName": "Восточный Тимор",
+    "countryCode": "TL",
+    "phoneCode": "+670",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇹🇱"
+  },
+  {
+    "id": 51,
+    "countryName": "Эквадор",
+    "countryCode": "EC",
+    "phoneCode": "+593",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇪🇨"
+  },
+  {
+    "id": 52,
+    "countryName": "Египет",
+    "countryCode": "EG",
+    "phoneCode": "+20",
+    "currencyCode": "EGP",
+    "currencyName": "египетский фунт",
+    "emoji": "🇪🇬"
+  },
+  {
+    "id": 53,
+    "countryName": "Сальвадор",
+    "countryCode": "SV",
+    "phoneCode": "+503",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇸🇻"
+  },
+  {
+    "id": 54,
+    "countryName": "Экваториальная Гвинея",
+    "countryCode": "GQ",
+    "phoneCode": "+240",
+    "currencyCode": "XAF",
+    "currencyName": "франк КФА BEAC",
+    "emoji": "🇬🇶"
+  },
+  {
+    "id": 55,
+    "countryName": "Эритрея",
+    "countryCode": "ER",
+    "phoneCode": "+291",
+    "currencyCode": "ERN",
+    "currencyName": "накфа",
+    "emoji": "🇪🇷"
+  },
+  {
+    "id": 56,
+    "countryName": "Эстония",
+    "countryCode": "EE",
+    "phoneCode": "+372",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇪🇪"
+  },
+  {
+    "id": 57,
+    "countryName": "Эсватини",
+    "countryCode": "SZ",
+    "phoneCode": "+268",
+    "currencyCode": "SZL",
+    "currencyName": "лилангени",
+    "emoji": "🇸🇿"
+  },
+  {
+    "id": 58,
+    "countryName": "Эфиопия",
+    "countryCode": "ET",
+    "phoneCode": "+251",
+    "currencyCode": "ETB",
+    "currencyName": "эфиопский быр",
+    "emoji": "🇪🇹"
+  },
+  {
+    "id": 59,
+    "countryName": "Фиджи",
+    "countryCode": "FJ",
+    "phoneCode": "+679",
+    "currencyCode": "FJD",
+    "currencyName": "доллар Фиджи",
+    "emoji": "🇫🇯"
+  },
+  {
+    "id": 60,
+    "countryName": "Финляндия",
+    "countryCode": "FI",
+    "phoneCode": "+358",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇫🇮"
+  },
+  {
+    "id": 61,
+    "countryName": "Франция",
+    "countryCode": "FR",
+    "phoneCode": "+33",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇫🇷"
+  },
+  {
+    "id": 62,
+    "countryName": "Габон",
+    "countryCode": "GA",
+    "phoneCode": "+241",
+    "currencyCode": "XAF",
+    "currencyName": "франк КФА BEAC",
+    "emoji": "🇬🇦"
+  },
+  {
+    "id": 63,
+    "countryName": "Гамбия",
+    "countryCode": "GM",
+    "phoneCode": "+220",
+    "currencyCode": "GMD",
+    "currencyName": "даласи",
+    "emoji": "🇬🇲"
+  },
+  {
+    "id": 64,
+    "countryName": "Грузия",
+    "countryCode": "GE",
+    "phoneCode": "+995",
+    "currencyCode": "GEL",
+    "currencyName": "лари",
+    "emoji": "🇬🇪"
+  },
+  {
+    "id": 65,
+    "countryName": "Германия",
+    "countryCode": "DE",
+    "phoneCode": "+49",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇩🇪"
+  },
+  {
+    "id": 66,
+    "countryName": "Гана",
+    "countryCode": "GH",
+    "phoneCode": "+233",
+    "currencyCode": "GHS",
+    "currencyName": "седи",
+    "emoji": "🇬🇭"
+  },
+  {
+    "id": 67,
+    "countryName": "Греция",
+    "countryCode": "GR",
+    "phoneCode": "+30",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇬🇷"
+  },
+  {
+    "id": 68,
+    "countryName": "Гренада",
+    "countryCode": "GD",
+    "phoneCode": "+1-473",
+    "currencyCode": "XCD",
+    "currencyName": "восточно-карибский доллар",
+    "emoji": "🇬🇩"
+  },
+  {
+    "id": 69,
+    "countryName": "Гватемала",
+    "countryCode": "GT",
+    "phoneCode": "+502",
+    "currencyCode": "GTQ",
+    "currencyName": "кецаль",
+    "emoji": "🇬🇹"
+  },
+  {
+    "id": 70,
+    "countryName": "Гвинея",
+    "countryCode": "GN",
+    "phoneCode": "+224",
+    "currencyCode": "GNF",
+    "currencyName": "гвинейский франк",
+    "emoji": "🇬🇳"
+  },
+  {
+    "id": 71,
+    "countryName": "Гвинея-Бисау",
+    "countryCode": "GW",
+    "phoneCode": "+245",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА BCEAO",
+    "emoji": "🇬🇼"
+  },
+  {
+    "id": 72,
+    "countryName": "Гайана",
+    "countryCode": "GY",
+    "phoneCode": "+592",
+    "currencyCode": "GYD",
+    "currencyName": "гайанский доллар",
+    "emoji": "🇬🇾"
+  },
+  {
+    "id": 73,
+    "countryName": "Гаити",
+    "countryCode": "HT",
+    "phoneCode": "+509",
+    "currencyCode": "HTG",
+    "currencyName": "гурд",
+    "emoji": "🇭🇹"
+  },
+  {
+    "id": 74,
+    "countryName": "Гондурас",
+    "countryCode": "HN",
+    "phoneCode": "+504",
+    "currencyCode": "HNL",
+    "currencyName": "лемпира",
+    "emoji": "🇭🇳"
+  },
+  {
+    "id": 75,
+    "countryName": "Венгрия",
+    "countryCode": "HU",
+    "phoneCode": "+36",
+    "currencyCode": "HUF",
+    "currencyName": "форинт",
+    "emoji": "🇭🇺"
+  },
+  {
+    "id": 76,
+    "countryName": "Исландия",
+    "countryCode": "IS",
+    "phoneCode": "+354",
+    "currencyCode": "ISK",
+    "currencyName": "исландская крона",
+    "emoji": "🇮🇸"
+  },
+  {
+    "id": 77,
+    "countryName": "Индия",
+    "countryCode": "IN",
+    "phoneCode": "+91",
+    "currencyCode": "INR",
+    "currencyName": "индийская рупия",
+    "emoji": "🇮🇳"
+  },
+  {
+    "id": 78,
+    "countryName": "Индонезия",
+    "countryCode": "ID",
+    "phoneCode": "+62",
+    "currencyCode": "IDR",
+    "currencyName": "рупия",
+    "emoji": "🇮🇩"
+  },
+  {
+    "id": 79,
+    "countryName": "Иран",
+    "countryCode": "IR",
+    "phoneCode": "+98",
+    "currencyCode": "IRR",
+    "currencyName": "иранский риал",
+    "emoji": "🇮🇷"
+  },
+  {
+    "id": 80,
+    "countryName": "Ирак",
+    "countryCode": "IQ",
+    "phoneCode": "+964",
+    "currencyCode": "IQD",
+    "currencyName": "иракский динар",
+    "emoji": "🇮🇶"
+  },
+  {
+    "id": 81,
+    "countryName": "Ирландия",
+    "countryCode": "IE",
+    "phoneCode": "+353",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇮🇪"
+  },
+  {
+    "id": 82,
+    "countryName": "Израиль",
+    "countryCode": "IL",
+    "phoneCode": "+972",
+    "currencyCode": "ILS",
+    "currencyName": "новый шекель",
+    "emoji": "🇮🇱"
+  },
+  {
+    "id": 83,
+    "countryName": "Италия",
+    "countryCode": "IT",
+    "phoneCode": "+39",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇮🇹"
+  },
+  {
+    "id": 84,
+    "countryName": "Ямайка",
+    "countryCode": "JM",
+    "phoneCode": "+1-876",
+    "currencyCode": "JMD",
+    "currencyName": "ямайский доллар",
+    "emoji": "🇯🇲"
+  },
+  {
+    "id": 85,
+    "countryName": "Япония",
+    "countryCode": "JP",
+    "phoneCode": "+81",
+    "currencyCode": "JPY",
+    "currencyName": "иена",
+    "emoji": "🇯🇵"
+  },
+  {
+    "id": 86,
+    "countryName": "Иордания",
+    "countryCode": "JO",
+    "phoneCode": "+962",
+    "currencyCode": "JOD",
+    "currencyName": "иорданский динар",
+    "emoji": "🇯🇴"
+  },
+  {
+    "id": 87,
+    "countryName": "Казахстан",
+    "countryCode": "KZ",
+    "phoneCode": "+7",
+    "currencyCode": "KZT",
+    "currencyName": "тенге",
+    "emoji": "🇰🇿"
+  },
+  {
+    "id": 88,
+    "countryName": "Кения",
+    "countryCode": "KE",
+    "phoneCode": "+254",
+    "currencyCode": "KES",
+    "currencyName": "кенийский шиллинг",
+    "emoji": "🇰🇪"
+  },
+  {
+    "id": 89,
+    "countryName": "Кирибати",
+    "countryCode": "KI",
+    "phoneCode": "+686",
+    "currencyCode": "AUD",
+    "currencyName": "австралийский доллар",
+    "emoji": "🇰🇮"
+  },
+  {
+    "id": 90,
+    "countryName": "Южная Корея",
+    "countryCode": "KR",
+    "phoneCode": "+82",
+    "currencyCode": "KRW",
+    "currencyName": "вон",
+    "emoji": "🇰🇷"
+  },
+  {
+    "id": 91,
+    "countryName": "Кувейт",
+    "countryCode": "KW",
+    "phoneCode": "+965",
+    "currencyCode": "KWD",
+    "currencyName": "кувейтский динар",
+    "emoji": "🇰🇼"
+  },
+  {
+    "id": 92,
+    "countryName": "Кыргызстан",
+    "countryCode": "KG",
+    "phoneCode": "+996",
+    "currencyCode": "KGS",
+    "currencyName": "сом",
+    "emoji": "🇰🇬"
+  },
+  {
+    "id": 93,
+    "countryName": "Лаос",
+    "countryCode": "LA",
+    "phoneCode": "+856",
+    "currencyCode": "LAK",
+    "currencyName": "кип",
+    "emoji": "🇱🇦"
+  },
+  {
+    "id": 94,
+    "countryName": "Латвия",
+    "countryCode": "LV",
+    "phoneCode": "+371",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇱🇻"
+  },
+  {
+    "id": 95,
+    "countryName": "Ливан",
+    "countryCode": "LB",
+    "phoneCode": "+961",
+    "currencyCode": "LBP",
+    "currencyName": "ливанский фунт",
+    "emoji": "🇱🇧"
+  },
+  {
+    "id": 96,
+    "countryName": "Лесото",
+    "countryCode": "LS",
+    "phoneCode": "+266",
+    "currencyCode": "LSL",
+    "currencyName": "лоти",
+    "emoji": "🇱🇸"
+  },
+  {
+    "id": 97,
+    "countryName": "Либерия",
+    "countryCode": "LR",
+    "phoneCode": "+231",
+    "currencyCode": "LRD",
+    "currencyName": "либерийский доллар",
+    "emoji": "🇱🇷"
+  },
+  {
+    "id": 98,
+    "countryName": "Ливия",
+    "countryCode": "LY",
+    "phoneCode": "+218",
+    "currencyCode": "LYD",
+    "currencyName": "ливийский динар",
+    "emoji": "🇱🇾"
+  },
+  {
+    "id": 99,
+    "countryName": "Лихтенштейн",
+    "countryCode": "LI",
+    "phoneCode": "+423",
+    "currencyCode": "CHF",
+    "currencyName": "швейцарский франк",
+    "emoji": "🇱🇮"
+  },
+  {
+    "id": 100,
+    "countryName": "Литва",
+    "countryCode": "LT",
+    "phoneCode": "+370",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇱🇹"
+  },
+  {
+    "id": 101,
+    "countryName": "Люксембург",
+    "countryCode": "LU",
+    "phoneCode": "+352",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇱🇺"
+  },
+  {
+    "id": 102,
+    "countryName": "Мадагаскар",
+    "countryCode": "MG",
+    "phoneCode": "+261",
+    "currencyCode": "MGA",
+    "currencyName": "малагасийский ариари",
+    "emoji": "🇲🇬"
+  },
+  {
+    "id": 103,
+    "countryName": "Малави",
+    "countryCode": "MW",
+    "phoneCode": "+265",
+    "currencyCode": "MWK",
+    "currencyName": "малавийская квача",
+    "emoji": "🇲🇼"
+  },
+  {
+    "id": 104,
+    "countryName": "Малайзия",
+    "countryCode": "MY",
+    "phoneCode": "+60",
+    "currencyCode": "MYR",
+    "currencyName": "малайзийский ринггит",
+    "emoji": "🇲🇾"
+  },
+  {
+    "id": 105,
+    "countryName": "Мальдивы",
+    "countryCode": "MV",
+    "phoneCode": "+960",
+    "currencyCode": "MVR",
+    "currencyName": "руфия",
+    "emoji": "🇲🇻"
+  },
+  {
+    "id": 106,
+    "countryName": "Мали",
+    "countryCode": "ML",
+    "phoneCode": "+223",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА BCEAO",
+    "emoji": "🇲🇱"
+  },
+  {
+    "id": 107,
+    "countryName": "Мальта",
+    "countryCode": "MT",
+    "phoneCode": "+356",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇲🇹"
+  },
+  {
+    "id": 108,
+    "countryName": "Маршалловы Острова",
+    "countryCode": "MH",
+    "phoneCode": "+692",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇲🇭"
+  },
+  {
+    "id": 109,
+    "countryName": "Мавритания",
+    "countryCode": "MR",
+    "phoneCode": "+222",
+    "currencyCode": "MRU",
+    "currencyName": "угия",
+    "emoji": "🇲🇷"
+  },
+  {
+    "id": 110,
+    "countryName": "Маврикий",
+    "countryCode": "MU",
+    "phoneCode": "+230",
+    "currencyCode": "MUR",
+    "currencyName": "маврикийская рупия",
+    "emoji": "🇲🇺"
+  },
+  {
+    "id": 111,
+    "countryName": "Мексика",
+    "countryCode": "MX",
+    "phoneCode": "+52",
+    "currencyCode": "MXN",
+    "currencyName": "мексиканское песо",
+    "emoji": "🇲🇽"
+  },
+  {
+    "id": 112,
+    "countryName": "Микронезия",
+    "countryCode": "FM",
+    "phoneCode": "+691",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇫🇲"
+  },
+  {
+    "id": 113,
+    "countryName": "Молдова",
+    "countryCode": "MD",
+    "phoneCode": "+373",
+    "currencyCode": "MDL",
+    "currencyName": "молдавский лей",
+    "emoji": "🇲🇩"
+  },
+  {
+    "id": 114,
+    "countryName": "Монако",
+    "countryCode": "MC",
+    "phoneCode": "+377",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇲🇨"
+  },
+  {
+    "id": 115,
+    "countryName": "Монголия",
+    "countryCode": "MN",
+    "phoneCode": "+976",
+    "currencyCode": "MNT",
+    "currencyName": "тугрик",
+    "emoji": "🇲🇳"
+  },
+  {
+    "id": 116,
+    "countryName": "Черногория",
+    "countryCode": "ME",
+    "phoneCode": "+382",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇲🇪"
+  },
+  {
+    "id": 117,
+    "countryName": "Марокко",
+    "countryCode": "MA",
+    "phoneCode": "+212",
+    "currencyCode": "MAD",
+    "currencyName": "марокканский дирхам",
+    "emoji": "🇲🇦"
+  },
+  {
+    "id": 118,
+    "countryName": "Мозамбик",
+    "countryCode": "MZ",
+    "phoneCode": "+258",
+    "currencyCode": "MZN",
+    "currencyName": "метикал",
+    "emoji": "🇲🇿"
+  },
+  {
+    "id": 119,
+    "countryName": "Мьянма",
+    "countryCode": "MM",
+    "phoneCode": "+95",
+    "currencyCode": "MMK",
+    "currencyName": "кьят",
+    "emoji": "🇲🇲"
+  },
+  {
+    "id": 120,
+    "countryName": "Намибия",
+    "countryCode": "NA",
+    "phoneCode": "+264",
+    "currencyCode": "NAD",
+    "currencyName": "намибийский доллар",
+    "emoji": "🇳🇦"
+  },
+  {
+    "id": 121,
+    "countryName": "Науру",
+    "countryCode": "NR",
+    "phoneCode": "+674",
+    "currencyCode": "AUD",
+    "currencyName": "австралийский доллар",
+    "emoji": "🇳🇷"
+  },
+  {
+    "id": 122,
+    "countryName": "Непал",
+    "countryCode": "NP",
+    "phoneCode": "+977",
+    "currencyCode": "NPR",
+    "currencyName": "непальская рупия",
+    "emoji": "🇳🇵"
+  },
+  {
+    "id": 123,
+    "countryName": "Нидерланды",
+    "countryCode": "NL",
+    "phoneCode": "+31",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇳🇱"
+  },
+  {
+    "id": 124,
+    "countryName": "Новая Зеландия",
+    "countryCode": "NZ",
+    "phoneCode": "+64",
+    "currencyCode": "NZD",
+    "currencyName": "новозеландский доллар",
+    "emoji": "🇳🇿"
+  },
+  {
+    "id": 125,
+    "countryName": "Никарагуа",
+    "countryCode": "NI",
+    "phoneCode": "+505",
+    "currencyCode": "NIO",
+    "currencyName": "кордоба",
+    "emoji": "🇳🇮"
+  },
+  {
+    "id": 126,
+    "countryName": "Нигер",
+    "countryCode": "NE",
+    "phoneCode": "+227",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА BCEAO",
+    "emoji": "🇳🇪"
+  },
+  {
+    "id": 127,
+    "countryName": "Нигерия",
+    "countryCode": "NG",
+    "phoneCode": "+234",
+    "currencyCode": "NGN",
+    "currencyName": "найра",
+    "emoji": "🇳🇬"
+  },
+  {
+    "id": 128,
+    "countryName": "Северная Македония",
+    "countryCode": "MK",
+    "phoneCode": "+389",
+    "currencyCode": "MKD",
+    "currencyName": "македонский денар",
+    "emoji": "🇲🇰"
+  },
+  {
+    "id": 129,
+    "countryName": "Норвегия",
+    "countryCode": "NO",
+    "phoneCode": "+47",
+    "currencyCode": "NOK",
+    "currencyName": "норвежская крона",
+    "emoji": "🇳🇴"
+  },
+  {
+    "id": 130,
+    "countryName": "Оман",
+    "countryCode": "OM",
+    "phoneCode": "+968",
+    "currencyCode": "OMR",
+    "currencyName": "оманский риал",
+    "emoji": "🇴🇲"
+  },
+  {
+    "id": 131,
+    "countryName": "Пакистан",
+    "countryCode": "PK",
+    "phoneCode": "+92",
+    "currencyCode": "PKR",
+    "currencyName": "пакистанская рупия",
+    "emoji": "🇵🇰"
+  },
+  {
+    "id": 132,
+    "countryName": "Палау",
+    "countryCode": "PW",
+    "phoneCode": "+680",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇵🇼"
+  },
+  {
+    "id": 133,
+    "countryName": "Палестина",
+    "countryCode": "PS",
+    "phoneCode": "+970",
+    "currencyCode": "ILS",
+    "currencyName": "новый израильский шекель",
+    "emoji": "🇵🇸"
+  },
+  {
+    "id": 134,
+    "countryName": "Панама",
+    "countryCode": "PA",
+    "phoneCode": "+507",
+    "currencyCode": "PAB",
+    "currencyName": "бальбоа",
+    "emoji": "🇵🇦"
+  },
+  {
+    "id": 135,
+    "countryName": "Папуа — Новая Гвинея",
+    "countryCode": "PG",
+    "phoneCode": "+675",
+    "currencyCode": "PGK",
+    "currencyName": "кина",
+    "emoji": "🇵🇬"
+  },
+  {
+    "id": 136,
+    "countryName": "Парагвай",
+    "countryCode": "PY",
+    "phoneCode": "+595",
+    "currencyCode": "PYG",
+    "currencyName": "гуарани",
+    "emoji": "🇵🇾"
+  },
+  {
+    "id": 137,
+    "countryName": "Перу",
+    "countryCode": "PE",
+    "phoneCode": "+51",
+    "currencyCode": "PEN",
+    "currencyName": "соль",
+    "emoji": "🇵🇪"
+  },
+  {
+    "id": 138,
+    "countryName": "Филиппины",
+    "countryCode": "PH",
+    "phoneCode": "+63",
+    "currencyCode": "PHP",
+    "currencyName": "филиппинское песо",
+    "emoji": "🇵🇭"
+  },
+  {
+    "id": 139,
+    "countryName": "Польша",
+    "countryCode": "PL",
+    "phoneCode": "+48",
+    "currencyCode": "PLN",
+    "currencyName": "злотый",
+    "emoji": "🇵🇱"
+  },
+  {
+    "id": 140,
+    "countryName": "Португалия",
+    "countryCode": "PT",
+    "phoneCode": "+351",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇵🇹"
+  },
+  {
+    "id": 141,
+    "countryName": "Катар",
+    "countryCode": "QA",
+    "phoneCode": "+974",
+    "currencyCode": "QAR",
+    "currencyName": "катарский риал",
+    "emoji": "🇶🇦"
+  },
+  {
+    "id": 142,
+    "countryName": "Румыния",
+    "countryCode": "RO",
+    "phoneCode": "+40",
+    "currencyCode": "RON",
+    "currencyName": "румынский лей",
+    "emoji": "🇷🇴"
+  },
+  {
+    "id": 143,
+    "countryName": "Россия",
+    "countryCode": "RU",
+    "phoneCode": "+7",
+    "currencyCode": "RUB",
+    "currencyName": "российский рубль",
+    "emoji": "🇷🇺"
+  },
+  {
+    "id": 144,
+    "countryName": "Руанда",
+    "countryCode": "RW",
+    "phoneCode": "+250",
+    "currencyCode": "RWF",
+    "currencyName": "франк Руанды",
+    "emoji": "🇷🇼"
+  },
+  {
+    "id": 145,
+    "countryName": "Сент-Китс и Невис",
+    "countryCode": "KN",
+    "phoneCode": "+1-869",
+    "currencyCode": "XCD",
+    "currencyName": "восточно-карибский доллар",
+    "emoji": "🇰🇳"
+  },
+  {
+    "id": 146,
+    "countryName": "Сент-Люсия",
+    "countryCode": "LC",
+    "phoneCode": "+1-758",
+    "currencyCode": "XCD",
+    "currencyName": "восточно-карибский доллар",
+    "emoji": "🇱🇨"
+  },
+  {
+    "id": 147,
+    "countryName": "Сент-Винсент и Гренадины",
+    "countryCode": "VC",
+    "phoneCode": "+1-784",
+    "currencyCode": "XCD",
+    "currencyName": "восточно-карибский доллар",
+    "emoji": "🇻🇨"
+  },
+  {
+    "id": 148,
+    "countryName": "Самоа",
+    "countryCode": "WS",
+    "phoneCode": "+685",
+    "currencyCode": "WST",
+    "currencyName": "тала",
+    "emoji": "🇼🇸"
+  },
+  {
+    "id": 149,
+    "countryName": "Сан-Марино",
+    "countryCode": "SM",
+    "phoneCode": "+378",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇸🇲"
+  },
+  {
+    "id": 150,
+    "countryName": "Сан-Томе и Принсипи",
+    "countryCode": "ST",
+    "phoneCode": "+239",
+    "currencyCode": "STN",
+    "currencyName": "добра",
+    "emoji": "🇸🇹"
+  },
+  {
+    "id": 151,
+    "countryName": "Саудовская Аравия",
+    "countryCode": "SA",
+    "phoneCode": "+966",
+    "currencyCode": "SAR",
+    "currencyName": "саудовский риял",
+    "emoji": "🇸🇦"
+  },
+  {
+    "id": 152,
+    "countryName": "Сенегал",
+    "countryCode": "SN",
+    "phoneCode": "+221",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА BCEAO",
+    "emoji": "🇸🇳"
+  },
+  {
+    "id": 153,
+    "countryName": "Сербия",
+    "countryCode": "RS",
+    "phoneCode": "+381",
+    "currencyCode": "RSD",
+    "currencyName": "сербский динар",
+    "emoji": "🇷🇸"
+  },
+  {
+    "id": 154,
+    "countryName": "Сейшелы",
+    "countryCode": "SC",
+    "phoneCode": "+248",
+    "currencyCode": "SCR",
+    "currencyName": "сейшельская рупия",
+    "emoji": "🇸🇨"
+  },
+  {
+    "id": 155,
+    "countryName": "Сьерра-Леоне",
+    "countryCode": "SL",
+    "phoneCode": "+232",
+    "currencyCode": "SLL",
+    "currencyName": "леоне",
+    "emoji": "🇸🇱"
+  },
+  {
+    "id": 156,
+    "countryName": "Сингапур",
+    "countryCode": "SG",
+    "phoneCode": "+65",
+    "currencyCode": "SGD",
+    "currencyName": "сингапурский доллар",
+    "emoji": "🇸🇬"
+  },
+  {
+    "id": 157,
+    "countryName": "Словакия",
+    "countryCode": "SK",
+    "phoneCode": "+421",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇸🇰"
+  },
+  {
+    "id": 158,
+    "countryName": "Словения",
+    "countryCode": "SI",
+    "phoneCode": "+386",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇸🇮"
+  },
+  {
+    "id": 159,
+    "countryName": "Соломоновы Острова",
+    "countryCode": "SB",
+    "phoneCode": "+677",
+    "currencyCode": "SBD",
+    "currencyName": "доллар Соломоновых Островов",
+    "emoji": "🇸🇧"
+  },
+  {
+    "id": 160,
+    "countryName": "Сомали",
+    "countryCode": "SO",
+    "phoneCode": "+252",
+    "currencyCode": "SOS",
+    "currencyName": "сомалийский шиллинг",
+    "emoji": "🇸🇴"
+  },
+  {
+    "id": 161,
+    "countryName": "Южная Африка",
+    "countryCode": "ZA",
+    "phoneCode": "+27",
+    "currencyCode": "ZAR",
+    "currencyName": "южноафриканский ранд",
+    "emoji": "🇿🇦"
+  },
+  {
+    "id": 162,
+    "countryName": "Южный Судан",
+    "countryCode": "SS",
+    "phoneCode": "+211",
+    "currencyCode": "SSP",
+    "currencyName": "южносуданский фунт",
+    "emoji": "🇸🇸"
+  },
+  {
+    "id": 163,
+    "countryName": "Испания",
+    "countryCode": "ES",
+    "phoneCode": "+34",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇪🇸"
+  },
+  {
+    "id": 164,
+    "countryName": "Шри-Ланка",
+    "countryCode": "LK",
+    "phoneCode": "+94",
+    "currencyCode": "LKR",
+    "currencyName": "шри-ланкийская рупия",
+    "emoji": "🇱🇰"
+  },
+  {
+    "id": 165,
+    "countryName": "Судан",
+    "countryCode": "SD",
+    "phoneCode": "+249",
+    "currencyCode": "SDG",
+    "currencyName": "суданский фунт",
+    "emoji": "🇸🇩"
+  },
+  {
+    "id": 166,
+    "countryName": "Суринам",
+    "countryCode": "SR",
+    "phoneCode": "+597",
+    "currencyCode": "SRD",
+    "currencyName": "суринамский доллар",
+    "emoji": "🇸🇷"
+  },
+  {
+    "id": 167,
+    "countryName": "Швеция",
+    "countryCode": "SE",
+    "phoneCode": "+46",
+    "currencyCode": "SEK",
+    "currencyName": "шведская крона",
+    "emoji": "🇸🇪"
+  },
+  {
+    "id": 168,
+    "countryName": "Швейцария",
+    "countryCode": "CH",
+    "phoneCode": "+41",
+    "currencyCode": "CHF",
+    "currencyName": "швейцарский франк",
+    "emoji": "🇨🇭"
+  },
+  {
+    "id": 169,
+    "countryName": "Сирия",
+    "countryCode": "SY",
+    "phoneCode": "+963",
+    "currencyCode": "SYP",
+    "currencyName": "сирийский фунт",
+    "emoji": "🇸🇾"
+  },
+  {
+    "id": 170,
+    "countryName": "Тайвань",
+    "countryCode": "TW",
+    "phoneCode": "+886",
+    "currencyCode": "TWD",
+    "currencyName": "новый тайваньский доллар",
+    "emoji": "🇹🇼"
+  },
+  {
+    "id": 171,
+    "countryName": "Таджикистан",
+    "countryCode": "TJ",
+    "phoneCode": "+992",
+    "currencyCode": "TJS",
+    "currencyName": "сомони",
+    "emoji": "🇹🇯"
+  },
+  {
+    "id": 172,
+    "countryName": "Танзания",
+    "countryCode": "TZ",
+    "phoneCode": "+255",
+    "currencyCode": "TZS",
+    "currencyName": "танзанийский шиллинг",
+    "emoji": "🇹🇿"
+  },
+  {
+    "id": 173,
+    "countryName": "Таиланд",
+    "countryCode": "TH",
+    "phoneCode": "+66",
+    "currencyCode": "THB",
+    "currencyName": "бат",
+    "emoji": "🇹🇭"
+  },
+  {
+    "id": 174,
+    "countryName": "Того",
+    "countryCode": "TG",
+    "phoneCode": "+228",
+    "currencyCode": "XOF",
+    "currencyName": "франк КФА BCEAO",
+    "emoji": "🇹🇬"
+  },
+  {
+    "id": 175,
+    "countryName": "Тонга",
+    "countryCode": "TO",
+    "phoneCode": "+676",
+    "currencyCode": "TOP",
+    "currencyName": "паанга",
+    "emoji": "🇹🇴"
+  },
+  {
+    "id": 176,
+    "countryName": "Тринидад и Тобаго",
+    "countryCode": "TT",
+    "phoneCode": "+1-868",
+    "currencyCode": "TTD",
+    "currencyName": "доллар Тринидада и Тобаго",
+    "emoji": "🇹🇹"
+  },
+  {
+    "id": 177,
+    "countryName": "Тунис",
+    "countryCode": "TN",
+    "phoneCode": "+216",
+    "currencyCode": "TND",
+    "currencyName": "тунисский динар",
+    "emoji": "🇹🇳"
+  },
+  {
+    "id": 178,
+    "countryName": "Турция",
+    "countryCode": "TR",
+    "phoneCode": "+90",
+    "currencyCode": "TRY",
+    "currencyName": "турецкая лира",
+    "emoji": "🇹🇷"
+  },
+  {
+    "id": 179,
+    "countryName": "Туркменистан",
+    "countryCode": "TM",
+    "phoneCode": "+993",
+    "currencyCode": "TMT",
+    "currencyName": "туркменский манат",
+    "emoji": "🇹🇲"
+  },
+  {
+    "id": 180,
+    "countryName": "Тувалу",
+    "countryCode": "TV",
+    "phoneCode": "+688",
+    "currencyCode": "AUD",
+    "currencyName": "австралийский доллар",
+    "emoji": "🇹🇻"
+  },
+  {
+    "id": 181,
+    "countryName": "Уганда",
+    "countryCode": "UG",
+    "phoneCode": "+256",
+    "currencyCode": "UGX",
+    "currencyName": "угандийский шиллинг",
+    "emoji": "🇺🇬"
+  },
+  {
+    "id": 182,
+    "countryName": "Украина",
+    "countryCode": "UA",
+    "phoneCode": "+380",
+    "currencyCode": "UAH",
+    "currencyName": "гривна",
+    "emoji": "🇺🇦"
+  },
+  {
+    "id": 183,
+    "countryName": "Объединённые Арабские Эмираты",
+    "countryCode": "AE",
+    "phoneCode": "+971",
+    "currencyCode": "AED",
+    "currencyName": "дирхам ОАЭ",
+    "emoji": "🇦🇪"
+  },
+  {
+    "id": 184,
+    "countryName": "Великобритания",
+    "countryCode": "GB",
+    "phoneCode": "+44",
+    "currencyCode": "GBP",
+    "currencyName": "фунт стерлингов",
+    "emoji": "🇬🇧"
+  },
+  {
+    "id": 185,
+    "countryName": "США",
+    "countryCode": "US",
+    "phoneCode": "+1",
+    "currencyCode": "USD",
+    "currencyName": "доллар США",
+    "emoji": "🇺🇸"
+  },
+  {
+    "id": 186,
+    "countryName": "Уругвай",
+    "countryCode": "UY",
+    "phoneCode": "+598",
+    "currencyCode": "UYU",
+    "currencyName": "уругвайское песо",
+    "emoji": "🇺🇾"
+  },
+  {
+    "id": 187,
+    "countryName": "Узбекистан",
+    "countryCode": "UZ",
+    "phoneCode": "+998",
+    "currencyCode": "UZS",
+    "currencyName": "сум",
+    "emoji": "🇺🇿"
+  },
+  {
+    "id": 188,
+    "countryName": "Вануату",
+    "countryCode": "VU",
+    "phoneCode": "+678",
+    "currencyCode": "VUV",
+    "currencyName": "вату",
+    "emoji": "🇻🇺"
+  },
+  {
+    "id": 189,
+    "countryName": "Ватикан",
+    "countryCode": "VA",
+    "phoneCode": "+379",
+    "currencyCode": "EUR",
+    "currencyName": "евро",
+    "emoji": "🇻🇦"
+  },
+  {
+    "id": 190,
+    "countryName": "Венесуэла",
+    "countryCode": "VE",
+    "phoneCode": "+58",
+    "currencyCode": "VES",
+    "currencyName": "боливар",
+    "emoji": "🇻🇪"
+  },
+  {
+    "id": 191,
+    "countryName": "Вьетнам",
+    "countryCode": "VN",
+    "phoneCode": "+84",
+    "currencyCode": "VND",
+    "currencyName": "донг",
+    "emoji": "🇻🇳"
+  },
+  {
+    "id": 192,
+    "countryName": "Йемен",
+    "countryCode": "YE",
+    "phoneCode": "+967",
+    "currencyCode": "YER",
+    "currencyName": "йеменский риал",
+    "emoji": "🇾🇪"
+  },
+  {
+    "id": 193,
+    "countryName": "Замбия",
+    "countryCode": "ZM",
+    "phoneCode": "+260",
+    "currencyCode": "ZMW",
+    "currencyName": "замбийская квача",
+    "emoji": "🇿🇲"
+  },
+  {
+    "id": 194,
+    "countryName": "Зимбабве",
+    "countryCode": "ZW",
+    "phoneCode": "+263",
+    "currencyCode": "ZWL",
+    "currencyName": "доллар Зимбабве",
+    "emoji": "🇿🇼"
+  },
+  {
+    "id": 195,
+    "countryName": "Аруба",
+    "countryCode": "AW",
+    "phoneCode": "+297",
+    "currencyCode": "AWG",
+    "currencyName": "арубанский флорин",
+    "emoji": "🇦🇼"
+  }
+]

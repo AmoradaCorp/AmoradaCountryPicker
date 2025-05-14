@@ -2,18 +2,20 @@
 
 **Country Picker Android Library** ✨🚀
 
-> Librería 100% Jetpack Compose, modular, ligera y reutilizable para seleccionar país, código telefónico y moneda. Diseñada bajo Clean Architecture, SOLID y Compose 2025.
+> Librería 100% Jetpack Compose, modular, ligera y profesional para seleccionar país, código telefónico y moneda.  
+> Compatible con múltiples idiomas, animaciones, búsqueda fluida y Clean Architecture 2025.
 
 ---
 
 ## 📋 Funcionalidades
 
-- Lista de países (+195) basada en ISO 3166-1.
-- Selección de país, moneda y código telefónico.
-- UX optimizada: clic en todo el campo y búsqueda en tiempo real.
-- Interfaz `CountryProvider` para desacoplar la fuente de datos (assets, red, mock...).
-- Soporte para tema claro/oscuro.
-- Código desacoplado, testeable y profesional.
+- Lista completa de países (+195) con bandera, código, moneda y teléfono.
+- Selectores visuales para país, moneda y código telefónico.
+- Soporte para múltiples idiomas (`en`, `es`, `pt`, `fr`, `it`, `de`, `zh`, `ar`, `hi`).
+- Auto-scroll al ítem seleccionado.
+- Búsqueda con teclado (`IMEAction.Done` para cerrar).
+- Fallback a inglés si el idioma no está soportado.
+- Consumo flexible vía `CountryProvider`.
 
 ---
 
@@ -39,20 +41,25 @@ dependencyResolutionManagement {
 ```kotlin
 # libs.versions.toml
 [libraries]
-amorada-countrypicker = { group = "com.github.AmoradaCorp", name = "AmoradaCountryPicker", version = "v1.4.0" }
+amorada-countrypicker = { group = "com.github.AmoradaCorp", name = "AmoradaCountryPicker", version = "v1.6.0" }
 
 ```
 
 ```kotlin
 // build.gradle.kts
 implementation(libs.amorada.countrypicker)
+
 ```
 
 ---
 
 ## 💻 Uso rápido con componentes incluidos
 ```kotlin
-val countryProvider = CountryRepository(context)
+val countryProvider = AssetCountryProvider(context) // detecta idioma automáticamente
+
+//Si deseas un idioma en especifico
+val countryProvider = AssetCountryProvider(context, languageCode = "fr") // francés
+
 ```
 
 ### Selector de país (con bandera, código y nombre)
@@ -69,6 +76,7 @@ CountryPickerDropdown(
     countryProvider = countryProvider,
     modifier = Modifier.fillMaxWidth()
 )
+
 
 ```
 
@@ -95,32 +103,52 @@ CurrencyPickerDropdown(
 PhoneCodePickerDropdown(
     selectedPhoneCode = state.phoneCode,
     onPhoneCodeSelected = {
-        state = state.copy(
-            phoneCode = it.phoneCode
-        )
+        state = state.copy(phoneCode = it.phoneCode)
     },
     countryProvider = countryProvider,
     modifier = Modifier.fillMaxWidth()
 )
 
 
+
 ```
+---
+
+## 🌍 Soporte de idiomas disponibles
+
+>> Esta librería soporta automáticamente los siguientes idiomas (si están disponibles en assets):
+
+>> Código ISO	Idioma
+>> en	Inglés
+>> es	Español
+>> pt	Portugués
+>> fr	Francés
+>> de	Alemán
+>> it	Italiano
+>> zh	Chino
+>> ar	Árabe
+>> hi	Hindi
+
+>> Si el idioma no se encuentra, se usa countries_en.json como fallback seguro.
+
+---
 
 📝 **¿Qué es CountryProvider?**
 ```kotlin
 interface CountryProvider {
     fun getCountries(): List<Country>
 }
+
 ```
 La librería no accede a Context ni carga datos por sí sola. La responsabilidad es del consumidor.
 
 Ejemplo:
 ```kotlin
-class CountryRepository(private val context: Context) : CountryProvider {
-    override fun getCountries(): List<Country> {
-        // Cargar JSON desde assets
-    }
-}
+class AssetCountryProvider(
+    private val context: Context,
+    private val languageCode: String? = null
+) : CountryProvider { ... }
+
 
 ```
 
@@ -133,17 +161,10 @@ Puedes acceder a la data para construir tu propio selector:
 ```kotlin
 val countries = countryProvider.getCountries()
 
-val countryList = countries.map {
+val list = countries.map {
     "${it.emoji.orEmpty()} ${it.countryCode} - ${it.countryName}"
 }
 
-val phoneList = countries.map {
-    "${it.emoji.orEmpty()} ${it.phoneCode}"
-}
-
-val currencyList = countries.map {
-    "${it.emoji.orEmpty()} ${it.currencyCode} - ${it.currencyName}"
-}
 
 ```
 
